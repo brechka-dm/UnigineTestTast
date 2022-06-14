@@ -62,6 +62,7 @@ int AppWorldLogic::update()
 
 	m_TrainPlayer.Update();
 	m_TrainNPC.Update();
+	m_CameraPlayer_Train->setWorldPosition(m_TrainPlayer.GetCameraPos());
 	m_CameraPlayer_Train->setWorldRotation(m_TrainPlayer.GetCamera());
 	m_CameraPlayer_Train->rotate(90, 180,0);
 	
