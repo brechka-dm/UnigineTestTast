@@ -64,10 +64,7 @@ int AppWorldLogic::update()
 	m_TrainNPC.Update();
 	m_CameraPlayer_Train->setWorldRotation(m_TrainPlayer.GetCamera());
 	m_CameraPlayer_Train->rotate(90, 180,0);
-
 	
-	m_CameraPlayer_Train->setWorldPosition(m_TrainPlayer.GetCameraPos());
-	m_TrainNPC.Update();
 	if (Input::isKeyPressed(Input::KEY_R))
 	{
 		quat rot = m_CameraPlayer_Train->getWorldRotation();
