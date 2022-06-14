@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "E:/unigine_project/unigine_project/source/out/build/x64-Debug/CMakeFiles/unigine_project.dir/embed.manifest"
