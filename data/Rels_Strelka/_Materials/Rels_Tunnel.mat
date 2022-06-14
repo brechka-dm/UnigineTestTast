@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.13.0.0" name="Rels_Tunnel" guid="8430a58db77f0b7d4850892f024837fcb329c0d5" parent="bb4f582cfa0ab4c9efcd95652955b267add81821" base_material="mesh_base">
+	<parameter name="material_mask" expression="0">16</parameter>
+</material>

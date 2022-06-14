@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>bf52af0fbd470b0ceae02759b394c22f9d5cf256</guid>
+	<type>texture</type>
+	<hash>86480d0d</hash>
+	<runtimes>
+		<runtime id="bf52af0fbd470b0ceae02759b394c22f9d5cf256" name="Test_Strelka1-6SingleTexture_LOD0___Albedo.dds" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">DXT1</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">1</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+	</parameters>
+</asset>

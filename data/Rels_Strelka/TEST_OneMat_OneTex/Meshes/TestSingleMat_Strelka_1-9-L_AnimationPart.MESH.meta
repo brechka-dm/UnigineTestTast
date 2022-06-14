@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>468d474118c37e132f848a764fde88572c0c0c90</guid>
+	<type>mesh</type>
+	<hash>c0cc1d62</hash>
+	<runtimes>
+		<runtime id="468d474118c37e132f848a764fde88572c0c0c90" name="TestSingleMat_Strelka_1-9-L_AnimationPart.MESH" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+		<parameter type="float" name="scale">1</parameter>
+		<parameter type="bool" name="animation">1</parameter>
+		<parameter type="bool" name="vertex_cache">1</parameter>
+	</parameters>
+</asset>

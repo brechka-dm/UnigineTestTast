@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.13.0.0">
+	<node type="ObjectMeshSkinned" id="297871717" name="Strelka_1-6_L_Wood_">
+		<mesh_name>guid://15e9d76a13fa4206e780bec8cc7f63b351e3a99a</mesh_name>
+		<fps_visible_camera>-1</fps_visible_camera>
+		<fps_visible_shadow>30</fps_visible_shadow>
+		<fps_invisible>0</fps_invisible>
+		<anim_name>guid://1a8b96a92bb5192b6a16a3fc012636ad7afb3007</anim_name>
+		<loop>1</loop>
+		<time>25.4353943</time>
+		<speed>25</speed>
+		<playing>1</playing>
+		<surface name="Brus_LOD0_" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Brus_LOD1_" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Nasip_LOD0_" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Nasip_LOD1_" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="PodkladkaKrestovina_LOD0_" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="PodkladkaKrestovina_LOD1_" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="PodkladkaOstryak_LOD0_" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="PodkladkaOstryak_LOD1_" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_01" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_02" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_03" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_04" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_05" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_06" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_07" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_08" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_09" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_10" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_11" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_12" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_13" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_14" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_15" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_16" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_17" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_18" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_19" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_20" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_21" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_22" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_23" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_24" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_25" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_26" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_27" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_28" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_29" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_30" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_31" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_32" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_33" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_34" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_35" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_36" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_37" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_38" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_39" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_40" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_41" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_42" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_43" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_44" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_45" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_46" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_47" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD0_48" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD1_01" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD1_02" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD1_03" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD1_04" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD1_05" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD1_06" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD1_07" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD1_08" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD1_09" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD1_10" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD1_11" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD1_12" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD1_13" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD1_14" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD1_15" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD1_16" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Podkladka_LOD1_17" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Privod-L_LOD0_" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Privod-L_LOD1_" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Privod-L_LOD2_" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Privod-R_LOD0_" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Privod-R_LOD1_" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Privod-R_LOD2_" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="RelsKontr_LOD0_" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="RelsKontr_LOD1_" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="RelsKrestovina_LOD0_" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="RelsKrestovina_LOD1_" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="RelsOstryak_LOD0_" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="RelsOstryak_LOD1_" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Rels_LOD0_" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="Rels_LOD1_" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_01" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_02" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_03" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_04" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_05" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_06" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_07" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_08" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_09" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_10" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_11" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_12" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_13" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_14" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_15" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_16" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_17" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_18" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_19" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_20" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_21" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_22" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_23" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_24" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_25" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_26" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_27" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_28" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_29" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_30" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_31" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_32" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_33" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_34" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_35" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_36" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_37" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_38" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_39" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_40" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_41" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_42" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_43" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_44" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_45" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_46" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_47" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_48" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_49" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWoodType1_LOD0_50" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWood_LOD1_01" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWood_LOD1_02" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWood_LOD1_03" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWood_LOD1_04" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<surface name="ShpalaWood_LOD1_05" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+		<transform>0.999999940395 0 0 0.0 0 0.999999940395 0 0.0 0 0 0.999999940395 0.0 2.27373675443e-13 0 0 1.0</transform>
+		<node type="WorldTransformPath" id="609930462" name="Spline_Strelka_1-6_L_Fwd_">
+			<path_name>guid://ac7b220c616c75fbeb75f31eee383fe5fc1c7000</path_name>
+			<loop>1</loop>
+			<time>0.00135815144</time>
+			<speed>1</speed>
+			<transform>1.78812619822e-07 0.999992549419 0 0.0 -0.999992549419 1.78812619822e-07 0 0.0 0 0 1 0.0 0 0.0348584353924 0.380550444126 1.0</transform>
+		</node>
+		<node type="WorldTransformPath" id="1144976705" name="Spline_Strelka_1-6_L_Turn_">
+			<path_name>guid://4e80a35f6e5619329aba26e91024c334c4279503</path_name>
+			<loop>1</loop>
+			<time>0.377643198</time>
+			<speed>1</speed>
+			<transform>-0.0814726375309 0.996675610147 0 0.0 -0.996675610147 -0.0814726375309 0 0.0 0 0 0.999994337559 0.0 -0.389696925879 9.52338790894 0.380550682545 1.0</transform>
+		</node>
+		<node type="NodeDummy" id="1018733961" name="NodeDummy">
+			<properties>
+				<property parent="ffe4bbd5b4cd6bef66001e73bd8085f99d8afb35" guid="b2eab58390775d06372510ad6edaba28319e5767"/>
+			</properties>
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1.00000005961 0.0 2.98020985667e-08 0.0350000041724 -0 1.0</transform>
+		</node>
+		<node type="NodeDummy" id="233798138" name="NodeDummy_1">
+			<properties>
+				<property parent="ffe4bbd5b4cd6bef66001e73bd8085f99d8afb35" guid="615b6d9a4fc8e03137bedbdc9535c58b87725d6e">
+					<parameter name="index">2</parameter>
+				</property>
+			</properties>
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1.00000005961 0.0 2.98020985667e-08 26.3070050519 -0 1.0</transform>
+		</node>
+		<node type="NodeDummy" id="1164762427" name="NodeDummy_2">
+			<properties>
+				<property parent="ffe4bbd5b4cd6bef66001e73bd8085f99d8afb35" guid="ce3585f51d735ed0f561a3ef9c0c8082b0f745f9">
+					<parameter name="index">1</parameter>
+				</property>
+			</properties>
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1.00000005961 0.0 -2.80950948489 26.0663215241 -0 1.0</transform>
+		</node>
+		<node type="NodeDummy" id="1035299879" name="NodeDummy_3">
+			<properties>
+				<property parent="ffe4bbd5b4cd6bef66001e73bd8085f99d8afb35" guid="942fb704a52ad693a5756ad6dadca43d4d089878">
+					<parameter name="index">-1</parameter>
+				</property>
+			</properties>
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1.00000005961 0.0 2.98020985667e-08 7.17543586599 -0 1.0</transform>
+		</node>
+	</node>
+</nodes>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>78eba2b6b7acbe5e6ca5108aa420f53eb2cf7a15</guid>
+	<type>texture</type>
+	<hash>8c6aa7b8</hash>
+	<runtimes>
+		<runtime id="78eba2b6b7acbe5e6ca5108aa420f53eb2cf7a15" name="Test_ShpalaSingleTexture_LOD0___Albedo.dds" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">DXT1</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">auto</parameter>
+		<parameter type="string" name="height">auto</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">1</parameter>
+		<parameter type="string" name="preset_name">custom</parameter>
+	</parameters>
+</asset>

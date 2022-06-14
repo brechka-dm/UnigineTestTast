@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.13.0.0" name="ShpalaConcrete_LOD0" guid="a37e585b9fd9d66c6dc4a71ea735d378c22c2f22" parent="863ea5f9390f970417c93693f1c04ad66fea043d" base_material="mesh_base">
+	<state name="ao_map">1</state>
+	<state name="specular_map">1</state>
+	<state name="detail">1</state>
+	<state name="detail_mapping">2</state>
+	<texture name="detail_albedo">guid://3b30b8c2a37a8cfa62f6d4e56a28f69b564dd232</texture>
+	<parameter name="albedo_color" expression="0">0.501960814 0.501960814 0.501960814 1</parameter>
+	<parameter name="metalness" expression="0">1</parameter>
+	<parameter name="specular" expression="0">1</parameter>
+	<parameter name="detail_albedo_color" expression="0">0 0 0 1</parameter>
+	<parameter name="detail_specular" expression="0">0</parameter>
+</material>

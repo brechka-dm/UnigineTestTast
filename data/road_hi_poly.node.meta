@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>46c8765c42c19e0b344f5bee7d557275d2cd6150</guid>
+	<type>node</type>
+	<hash>7bdd08d5</hash>
+	<runtimes>
+		<runtime id="46c8765c42c19e0b344f5bee7d557275d2cd6150" name="road_hi_poly.node" link="0"/>
+	</runtimes>
+</asset>

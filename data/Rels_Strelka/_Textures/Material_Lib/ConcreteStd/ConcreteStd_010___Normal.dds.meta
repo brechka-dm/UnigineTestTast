@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>0613e41da6f1edff7d7a4da1a371d6a8539c1987</guid>
+	<type>texture</type>
+	<hash>c129c544</hash>
+	<runtimes>
+		<runtime id="0613e41da6f1edff7d7a4da1a371d6a8539c1987" name="ConcreteStd_010___Normal.dds" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">ATI2</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">Original</parameter>
+		<parameter type="string" name="height">Original</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

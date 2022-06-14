@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.13.0.0" name="LandGravelNasip_015_Dark_Strelka_1-9_R_wet" guid="ab5f7195744f4838bafaadee02e6d713f5a41b00" parent="94385d7783efeccb8b147fc3f4a7547c76e3d222" base_material="mesh_base">
+	<texture name="detail_albedo">guid://3ecb69b3e7e53c52b6ce3e96e37df0baa3c42847</texture>
+	<parameter name="metalness" expression="0">0.200000003</parameter>
+	<parameter name="roughness" expression="0">0.300000012</parameter>
+</material>

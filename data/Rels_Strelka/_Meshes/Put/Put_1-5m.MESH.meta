@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>7401291ffbef64ded8adf2ad34006a0613b9625f</guid>
+	<type>mesh</type>
+	<hash>c1e068af</hash>
+	<runtimes>
+		<runtime id="7401291ffbef64ded8adf2ad34006a0613b9625f" name="Put_1-5m.MESH" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+		<parameter type="float" name="scale">1</parameter>
+		<parameter type="bool" name="animation">1</parameter>
+		<parameter type="bool" name="vertex_cache">1</parameter>
+	</parameters>
+</asset>

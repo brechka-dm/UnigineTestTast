@@ -1,0 +1,176 @@
+
+---- Engine ----
+Version: 2.13.0.0 ver-2.13.0.0-27a5e15 Dec 15 2020
+Binary: Windows 64-bit Visual C++ 1900 Debug
+Engine features: Direct3D11 OpenAL XPad360 Joystick HalfTexCoords OpenEXR
+
+---- Configs ----
+Loading boot config "E:/unigine_project/unigine_project/data/configs/default.boot"...
+Loading user config "E:/unigine_project/unigine_project/data/configs/default.user"...
+Using config file "configs/default.config"
+Using boot config file "configs/default.boot"
+Using user config file "configs/default.user"
+Using controls config file "configs/default.controls"
+
+---- GPU Detection ----
+GPU 0 Active: NVIDIA GRID K280Q 3820 MB
+GPU 1		: NVIDIA GRID K280Q 3820 MB
+GPU 2		: Microsoft Basic Render Driver 8191 MB
+GPU 3		: Microsoft Basic Render Driver 8191 MB
+
+---- System ----
+OS:		Windows 10 (build 22000) 64-bit
+
+CPU:	Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+		Frequency: 2493MHz
+		Extensions:  MMX SSE SSE2 SSE3 SSSE3 SSE41 SSE42 AVX HTT
+		Cores:8 Threads:8
+
+		System memory: 16383 MB
+		Sync threads:  7
+		Async threads: 8
+
+GPU:	NVIDIA GRID K280Q
+		Video memory:  3820 MB
+
+
+---- Plugins ----
+Loading "FbxImporter_x64d.dll"...
+Loading "GLTFImporter_x64d.dll"...
+Loading "FbxExporter_x64d.dll"...
+Plugins initialization: 5ms
+
+
+---- Application ----
+Loading "dxgi.dll"...
+Loading "openal32.dll"...
+Set 860x560 fullwindow video mode
+Application initialization: 329ms
+
+
+
+---- Render ----
+Renderer: Unknown 3820MB
+Renderer API: Direct3D 11.0
+Maximum texture size:    16384
+Maximum texture units:   16
+
+---- Filesystem ----
+App path:  E:/unigine_project/unigine_project/bin/
+Data path: E:/unigine_project/unigine_project/data/
+Save path: E:/unigine_project/unigine_project/bin/
+WARNING:	FileSystemCore::mount_file(): can't mount "test/NodeDummy_1.node" file, because of GUID collision
+
+Runtimes loaded: 6 3ms
+Filesystem initialization: 584ms
+
+---- Sound ----
+Renderer: OpenAL Soft on Удаленное аудио
+OpenAL vendor:   OpenAL Community
+OpenAL renderer: OpenAL Soft
+OpenAL version:  1.1 ALSOFT 1.19.1
+Found AL_EXT_LINEAR_DISTANCE
+Found AL_EXT_OFFSET
+Found ALC_EXT_EFX
+Found ALC_SOFT_HRTF
+Found EFX Filter
+Found EFX Reverb
+Found EAX Reverb
+Found QUAD16 format
+Found 51CHN16 format
+Found 61CHN16 format
+Found 71CHN16 format
+Device enumeration supported
+Maximum sources:         256
+Maximum effect slots:    16
+Maximum auxiliary sends: 2
+Output sampling frequency: 44100hz
+HRTF not enabled!
+
+---- Physics ----
+
+---- PathFind ----
+
+Loading controls "E:/unigine_project/unigine_project/data/configs/default.controls"...
+Loading "xinput1_4.dll"...
+Loading config "E:/unigine_project/unigine_project/data/configs/default.config"...
+
+---- Materials ----
+ERROR:	Material::loadXml(): can't find material name
+ERROR:	Material::load(): can't load "world_spline_graph_material.mat" file
+ERROR:	
+ERROR:	Materials without parent:
+ERROR:		"Rels_Strelka/TEST_OneMat_OneTex/Materials/Test_OneMat_Put-Strelka.mat" can't find material : 863ea5f9390f970417c93693f1c04ad66fea043d
+ERROR:		"Rels_Strelka/_Materials/Rels.mat" can't find material : 72bf28722d636d29d0fad4748925f54346a019c6
+ERROR:		"Rels_Strelka/_Materials/Shpala_Concrete/ShpalaConcrete_LOD0.mat" can't find material : 863ea5f9390f970417c93693f1c04ad66fea043d
+ERROR:		"Rels_Strelka/_Materials/Shpala_Concrete_LOD1/Shpala_LOD1.mat" can't find material : 863ea5f9390f970417c93693f1c04ad66fea043d
+ERROR:		"Rels_Strelka/_Materials/Shpala_Wood/ShpalaWood_LOD0.mat" can't find material : 863ea5f9390f970417c93693f1c04ad66fea043d
+Engine base materials loaded: 192 / 192 (370ms)
+Engine materials loaded:      70 / 70 (28ms)
+User materials loaded:        433 / 434 (395ms)
+Total materials: 695
+
+
+---- Properties ----
+Properties loaded:            2 / 2 (0ms)
+
+Processor registered "DefaultProcessor".
+Importer registered "FbxImporter".
+Processor registered "MergeStaticMeshes".
+Processor registered "MergeSimilarMaterials".
+Processor registered "MergeSurfacesByMaterials".
+Processor registered "CombineByPostfixes".
+Processor registered "SplitByBound".
+Processor registered "Repivot".
+Processor registered "CreateUV".
+Processor registered "CloseAnimation".
+Importer registered "GLTFImporter".
+Exporter registered "FbxExporter".
+Set 960x540 windowed video mode
+Engine initialization: 1903ms
+
+
+---- Interpreter ----
+Version: 2.90
+
+Unigine~# config_autosave 0 && world_load "unigine_project"
+Script loading "core/unigine.usc" 8ms
+Loading "core/locale/unigine.locale" dictionary 1ms
+World loading "unigine_project.world" 315ms
+rasst: 4.007870
+rasst: 3.997209
+rasst: 3.997346
+rasst: 4.000819
+rasst: 4.007870
+rasst: 3.997209
+rasst: 3.997346
+rasst: 4.000819
+
+---- Load cache textures ----
+Cache textures loaded 311 (83ms)
+
+Exporter unregistered "FbxExporter".
+Importer unregistered "GLTFImporter".
+Processor unregistered "MergeStaticMeshes".
+Processor unregistered "MergeSurfacesByMaterials".
+Processor unregistered "CombineByPostfixes".
+Processor unregistered "CreateUV".
+Processor unregistered "CloseAnimation".
+Importer unregistered "FbxImporter".
+Processor unregistered "MergeSimilarMaterials".
+Processor unregistered "SplitByBound".
+Processor unregistered "Repivot".
+Close "openal32.dll"
+ERROR:	D3D11RenderContext::destroyContext(): 524 unreleased references
+Total RAM:           9.8 MB
+- system RAM used:   2.5 MB
+- pool RAM reserved: 7.3 MB
+- pool RAM used:     2.0 MB
+Total allocs:        132138
+- system allocs:     640
+- 16b pool allocs:   131263
+- 32b pool allocs:   202
+- 64b pool allocs:   33
+
+
+Shutdown

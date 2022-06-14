@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>ecdf7429887016ed5f91c1c46169402f9ac81d94</guid>
+	<type>mesh</type>
+	<hash>6bc9643b</hash>
+	<runtimes>
+		<runtime id="ecdf7429887016ed5f91c1c46169402f9ac81d94" name="PutWood_5m_Porezano_.MESH" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+		<parameter type="float" name="scale">1</parameter>
+		<parameter type="bool" name="animation">1</parameter>
+		<parameter type="bool" name="vertex_cache">1</parameter>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.13.0.0">
+	<node type="ObjectMeshStatic" id="110002858" name="Test_OneMat_ShpalaBeton_Single_">
+		<mesh_name>guid://5d8ebfc3d7bc1835e8225ae903c825313e6744f6</mesh_name>
+		<surface name="ShpalaBeton_LOD0_" min_parent="0" max_parent="0" max_visible_distance="25" min_fade_distance="10" max_fade_distance="10" physics_friction="1" physics_restitution="1" material="d9f54f31fbc3e0465ecf650ab4673746f5064485"/>
+		<surface name="ShpalaBeton_LOD1_" cast_shadow="0" cast_world_shadow="0" min_parent="0" max_parent="0" min_visible_distance="15" max_visible_distance="700" min_fade_distance="10" max_fade_distance="100" physics_friction="1" physics_restitution="1" material="04bf1bf3d6ad2e7d56d52e212224cd151dbb9eb5"/>
+		<transform>0.999999761581 0 0 0.0 0 0.999999642372 0 0.0 0 0 0.999999821186 0.0 0 0 0 1.0</transform>
+	</node>
+</nodes>

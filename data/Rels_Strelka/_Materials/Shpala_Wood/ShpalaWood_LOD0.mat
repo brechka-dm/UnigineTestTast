@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.13.0.0" name="ShpalaWood_LOD0" guid="0b6925ffe254de555e08a6b1290bbc14ce1d9b91" parent="863ea5f9390f970417c93693f1c04ad66fea043d" base_material="mesh_base">
+	<state name="specular_map">1</state>
+	<state name="detail_mapping">2</state>
+	<texture name="albedo">guid://f3edad0bd3fb07b99527072296a3583e488d8c13</texture>
+	<texture name="shading">guid://27151f5564f1d3c7d81c3f6782b81ea19a3eff6a</texture>
+	<texture name="normal">guid://254f4e32dc824add7eff73814c0bc04a69392279</texture>
+	<parameter name="albedo_color" expression="0">0.752941251 0.752941251 0.752941251 1</parameter>
+	<parameter name="specular" expression="0">0</parameter>
+	<parameter name="translucent" expression="0">0.649999976</parameter>
+</material>

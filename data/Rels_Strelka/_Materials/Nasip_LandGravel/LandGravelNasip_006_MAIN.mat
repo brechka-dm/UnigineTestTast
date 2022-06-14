@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.13.0.0" name="LandGravelNasip_006_MAIN" guid="f7c6fd4069c078879a25c5ad9c6e475b513ddd74" parent="1bdf5e0fed951a45ad2e2d1aff43fdfbba4fb30b" base_material="mesh_base">
+	<texture name="albedo">guid://39e043232cfca288127ef5a5729f06d3bf214f77</texture>
+	<texture name="shading">guid://2c79ce1fa699af0d46a292c217aa656fa25c776a</texture>
+	<texture name="normal">guid://ccfd12abef9770dded1be0c70a072345b1132931</texture>
+	<texture name="ambient_occlusion">guid://8fceaa04fc9e01a474b4a45bec4a178fca48854d</texture>
+</material>

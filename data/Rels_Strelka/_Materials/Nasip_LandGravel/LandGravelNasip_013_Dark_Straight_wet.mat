@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.13.0.0" name="LandGravelNasip_013_Dark_Straight_wet" guid="cce43842f7d88c246e2287193cc888048af3d2d1" parent="e9acda8d7a4bfbfc3378b73d1476e9fe4d064f74" base_material="mesh_base">
+	<parameter name="metalness" expression="0">0.200000003</parameter>
+	<parameter name="roughness" expression="0">0.300000012</parameter>
+</material>

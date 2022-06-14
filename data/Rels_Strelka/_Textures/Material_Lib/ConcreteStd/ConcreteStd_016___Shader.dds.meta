@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>cb61547f459cf69a9368661efa304665a749b387</guid>
+	<type>texture</type>
+	<hash>f5ddd622</hash>
+	<runtimes>
+		<runtime id="cb61547f459cf69a9368661efa304665a749b387" name="ConcreteStd_016___Shader.dds" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">DXT1</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">Original</parameter>
+		<parameter type="string" name="height">Original</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

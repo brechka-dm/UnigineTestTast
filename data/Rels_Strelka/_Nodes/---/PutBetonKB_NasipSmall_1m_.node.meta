@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>e700e6731729c32eb7df58e7bd25f4742fecc8a8</guid>
+	<type>node</type>
+	<hash>f3aaa3e5</hash>
+	<runtimes>
+		<runtime id="e700e6731729c32eb7df58e7bd25f4742fecc8a8" name="PutBetonKB_NasipSmall_1m_.node" link="0"/>
+	</runtimes>
+</asset>

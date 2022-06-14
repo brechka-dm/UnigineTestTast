@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>c99f3beecf5c1476a4f45c2a9cba22e34743ebf1</guid>
+	<type>node</type>
+	<hash>9f415769</hash>
+	<runtimes>
+		<runtime id="c99f3beecf5c1476a4f45c2a9cba22e34743ebf1" name="PutWood-Test_5m_.node" link="0"/>
+	</runtimes>
+</asset>

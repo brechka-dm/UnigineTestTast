@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>ef1f74ebdc85fa92012a601b118a78318ae0c3ad</guid>
+	<type>node</type>
+	<hash>c7963f6f</hash>
+	<runtimes>
+		<runtime id="ef1f74ebdc85fa92012a601b118a78318ae0c3ad" name="PutBeton-Test_5m_.node" link="0"/>
+	</runtimes>
+</asset>

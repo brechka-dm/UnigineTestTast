@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>5d32d177ac18006a942b34c1207e872c8003589b</guid>
+	<type>node</type>
+	<hash>180be3a</hash>
+	<runtimes>
+		<runtime id="5d32d177ac18006a942b34c1207e872c8003589b" name="relsa.node" link="0"/>
+	</runtimes>
+</asset>

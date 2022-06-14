@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>0aa3351dce603799f5f5c87af9b5e64f48854abc</guid>
+	<type>texture</type>
+	<hash>e87929</hash>
+	<runtimes>
+		<runtime id="0aa3351dce603799f5f5c87af9b5e64f48854abc" name="ConcreteStd_004___Albedo.dds" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">DXT1</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">Original</parameter>
+		<parameter type="string" name="height">Original</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

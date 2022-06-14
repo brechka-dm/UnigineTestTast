@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>fb644dd85c20cf53b89f5395575905c0645d4c83</guid>
+	<type>mesh</type>
+	<hash>110f0b7b</hash>
+	<runtimes>
+		<runtime id="fb644dd85c20cf53b89f5395575905c0645d4c83" name="ShpalaWood_Single_NoLOD.MESH" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+		<parameter type="float" name="scale">1</parameter>
+		<parameter type="bool" name="animation">1</parameter>
+		<parameter type="bool" name="vertex_cache">1</parameter>
+	</parameters>
+</asset>

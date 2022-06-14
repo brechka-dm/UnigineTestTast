@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.13.0.0" name="LandGravelNasip_003_Light_Strelka_1-9_R_" guid="fbc3411ba31483f864073566ef2c22fcbadcf39c" parent="9d3080167c7ba1a3262a7d7147dc2d3aa0ff0eb8" base_material="mesh_base">
+	<texture name="detail_albedo">guid://3ecb69b3e7e53c52b6ce3e96e37df0baa3c42847</texture>
+</material>

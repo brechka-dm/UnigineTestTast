@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>fad558257d94cdcb1d5cd18c968aac5d97ac8d6e</guid>
+	<type>node</type>
+	<hash>03b426d2</hash>
+	<runtimes>
+		<runtime id="fad558257d94cdcb1d5cd18c968aac5d97ac8d6e" name="Strelka_1-22_RR_Beton_AnimationPart.node" link="0"/>
+	</runtimes>
+</asset>

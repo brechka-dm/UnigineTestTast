@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.13.0.0">
+	<node type="NodeDummy" id="758489057" name="Up_cylingr">
+		<transform>0.99999982 0 0 0.0 0 0.99999982 0 0.0 0 0 0.99999988 0.0 0 0 0 1.0</transform>
+		<node type="NodeDummy" id="44497613" name="Poezd">
+			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999988 0.0 0 0 0 1.0</transform>
+			<node type="NodeDummy" id="1690379918" name="NIZ">
+				<transform>0.99999988 0 0 0.0 0 0.99999976 0 0.0 0 0 0.99999988 0.0 0 0 1.096348 1.0</transform>
+				<node type="ObjectMeshStatic" id="322440763" name="Cuboid_1">
+					<mesh_name>guid://4aab993a5cdcd751f859287c533369ab43d8730e</mesh_name>
+					<surface name="box" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+					<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 0.0063314424 -0.013461053 0.42011929 1.0</transform>
+				</node>
+				<node type="ObjectMeshStatic" id="1871156083" name="cheplalka_pered">
+					<mesh_name>guid://707f7fa93746c4f479542bc3352fde46b74320ed</mesh_name>
+					<surface name="box" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+					<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 0.045781605 2.8738389 0.41550946 1.0</transform>
+				</node>
+				<node type="ObjectMeshStatic" id="1359277048" name="cheplalka_zad">
+					<mesh_name>guid://707f7fa93746c4f479542bc3352fde46b74320ed</mesh_name>
+					<surface name="box" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+					<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 0.045781605 -3.4663434 0.41550946 1.0</transform>
+				</node>
+			</node>
+			<node type="ObjectMeshStatic" id="1522970673" enabled="0" name="Cuboid_4">
+				<mesh_name>guid://7d906191aaccadbc6d68adeb7bfe6a4e48536d55</mesh_name>
+				<surface name="box" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+				<transform>0.99999988 0 0 0.0 0 0.99999976 0 0.0 0 0 0.99999982 0.0 0 0 1.6017598 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="929429178" name="Cylinder">
+				<mesh_name>guid://43f7ca402ad9b89f3093ad727b2c2e299a12a174</mesh_name>
+				<surface name="cylinder" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+				<transform>0.99999988 -1.065814e-12 -3.2584123e-07 0.0 3.2584126e-07 3.5762784e-07 1 0.0 -8.31335e-13 -0.89999998 3.2186506e-07 0.0 0 0 2.474319 1.0</transform>
+			</node>
+		</node>
+	</node>
+</nodes>

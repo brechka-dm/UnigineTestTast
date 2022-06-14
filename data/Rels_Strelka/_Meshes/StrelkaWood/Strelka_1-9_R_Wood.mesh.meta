@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>70c536cfa6e78586a5e4220dcf151db8f5777b9b</guid>
+	<type>mesh</type>
+	<hash>52915c9a</hash>
+	<runtimes>
+		<runtime id="70c536cfa6e78586a5e4220dcf151db8f5777b9b" name="Strelka_1-9_R_Wood.mesh" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+		<parameter type="float" name="scale">1</parameter>
+		<parameter type="bool" name="animation">1</parameter>
+		<parameter type="bool" name="vertex_cache">1</parameter>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

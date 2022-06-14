@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.13.0.0" name="LandGravelNasip_005_Light_Straight" guid="83c14d2a9c02a478635f737d575eacd63aee2884" parent="cd55a68899dfd10fb1aabe86a1dc201653972af9" base_material="mesh_base">
+	<texture name="detail_albedo">guid://3b30b8c2a37a8cfa62f6d4e56a28f69b564dd232</texture>
+</material>

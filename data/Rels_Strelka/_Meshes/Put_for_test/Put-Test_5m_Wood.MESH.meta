@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>8466514c357484fad001d01166bdb2b63f04fc89</guid>
+	<type>mesh</type>
+	<hash>cb981f79</hash>
+	<runtimes>
+		<runtime id="8466514c357484fad001d01166bdb2b63f04fc89" name="Put-Test_5m_Wood.MESH" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+		<parameter type="float" name="scale">1</parameter>
+		<parameter type="bool" name="animation">1</parameter>
+		<parameter type="bool" name="vertex_cache">1</parameter>
+	</parameters>
+</asset>

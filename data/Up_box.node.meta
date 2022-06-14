@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>cc840e7da71e7db8260aa5b797df47aae8ed5301</guid>
+	<type>node</type>
+	<hash>664b4dbc</hash>
+	<runtimes>
+		<runtime id="cc840e7da71e7db8260aa5b797df47aae8ed5301" name="Up_box.node" link="0"/>
+	</runtimes>
+</asset>

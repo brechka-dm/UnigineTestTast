@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.13.0.0">
+	<node type="NodeDummy" id="282479224" name="relsa">
+		<transform>0.99999994 0 0 0.0 0 0.99999994 0 0.0 0 0 0.99999994 0.0 0 0 0 1.0</transform>
+		<node type="ObjectMeshStatic" id="1300963402" name="Cuboid_5">
+			<mesh_name>guid://86dd5874ea3ea943a0993dc67b29fa6dabfd18e8</mesh_name>
+			<surface name="box" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 0 0 0 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="1046625054" name="Cuboid_6">
+			<mesh_name>guid://86dd5874ea3ea943a0993dc67b29fa6dabfd18e8</mesh_name>
+			<surface name="box" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 1 0 0 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="1357051329" name="Cuboid_7">
+			<mesh_name>guid://86dd5874ea3ea943a0993dc67b29fa6dabfd18e8</mesh_name>
+			<surface name="box" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+			<transform>1.7881391e-07 0.99999982 0 0.0 -0.99999958 1.7881388e-07 0 0.0 0 0 0.99999976 0.0 0.49461889 0 0 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="1165001317" name="Cuboid_8">
+			<mesh_name>guid://86dd5874ea3ea943a0993dc67b29fa6dabfd18e8</mesh_name>
+			<surface name="box" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+			<transform>-0.99999952 3.5762773e-07 0 0.0 -3.5762767e-07 -0.99999952 0 0.0 0 0 0.99999964 0.0 0.49461877 -0.50538135 0 1.0</transform>
+		</node>
+	</node>
+</nodes>

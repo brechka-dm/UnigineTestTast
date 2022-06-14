@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>f5f1895a5d61a9da7c0f743ab483b464cb5cec69</guid>
+	<type>material</type>
+	<hash>960e09de</hash>
+	<runtimes>
+		<runtime id="f5f1895a5d61a9da7c0f743ab483b464cb5cec69" name="ConcreteStdShpala_001_Tunnel" link="0"/>
+	</runtimes>
+</asset>

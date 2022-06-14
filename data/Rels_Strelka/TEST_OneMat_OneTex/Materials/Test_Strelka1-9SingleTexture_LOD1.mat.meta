@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>13d32d01c6bbca0fe9f0353998249f44e4982a72</guid>
+	<type>material</type>
+	<hash>8ac70cd5</hash>
+	<runtimes>
+		<runtime id="13d32d01c6bbca0fe9f0353998249f44e4982a72" name="Test_Strelka1-9SingleTexture_LOD1" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

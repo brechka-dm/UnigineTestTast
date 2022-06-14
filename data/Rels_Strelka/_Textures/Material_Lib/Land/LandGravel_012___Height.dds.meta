@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>2b5ef458092debfa03ddd5d3b76d631fd99b01de</guid>
+	<type>texture</type>
+	<hash>555c2c49</hash>
+	<runtimes>
+		<runtime id="2b5ef458092debfa03ddd5d3b76d631fd99b01de" name="LandGravel_012___Height.dds" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">ATI1</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">Original</parameter>
+		<parameter type="string" name="height">Original</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

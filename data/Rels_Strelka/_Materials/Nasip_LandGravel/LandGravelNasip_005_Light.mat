@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.13.0.0" name="LandGravelNasip_005_Light" guid="cd55a68899dfd10fb1aabe86a1dc201653972af9" parent="a9029211e9f6825e20e4717e0d0795c882ee8ef1" base_material="mesh_base">
+	<parameter name="albedo_color" expression="0">0.800000072 0.800000072 0.800000072 1</parameter>
+</material>

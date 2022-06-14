@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.13.0.0" name="ShpalaWood_Strelka_1-11-L_LOD1_" guid="673a601baf2d952a9651d49c5f8d85ee2d3b9c44" parent="fcccf99fc780a91abd8419789ace97dcdbe36659" base_material="mesh_base">
+	<texture name="albedo">guid://d64c7e5a7c21f9c3b43de59216409f24b8a567a5</texture>
+	<texture name="shading">guid://5219d6ddb5dbd1520e843a369ad2b64326bb24e2</texture>
+	<texture name="detail_albedo">guid://3ecb69b3e7e53c52b6ce3e96e37df0baa3c42847</texture>
+	<parameter name="albedo_color" expression="0">0.650980413 0.650980413 0.650980413 1</parameter>
+	<parameter name="parallax_scale" expression="0">0.00999999978</parameter>
+</material>

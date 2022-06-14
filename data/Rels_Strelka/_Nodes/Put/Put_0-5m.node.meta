@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>8b1ff879eff61de268c0e7a977bb53975476185a</guid>
+	<type>node</type>
+	<hash>35af4edc</hash>
+	<runtimes>
+		<runtime id="8b1ff879eff61de268c0e7a977bb53975476185a" name="Put_0-5m.node" link="0"/>
+	</runtimes>
+</asset>

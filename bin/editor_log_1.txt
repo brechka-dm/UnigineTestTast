@@ -1,0 +1,199 @@
+
+---- Engine ----
+Version: 2.13.0.0 ver-2.13.0.0-27a5e15 Dec 15 2020
+Binary: Windows 64-bit Visual C++ 1900 Release
+Engine features: Direct3D11 OpenAL XPad360 Joystick HalfTexCoords Microprofile OpenEXR
+
+---- Configs ----
+Loading boot config "E:/unigine_project/unigine_project/data/configs/default.boot"...
+Loading user config "E:/unigine_project/unigine_project/data/configs/default.user"...
+Using config file "configs/default.config"
+Using boot config file "configs/default.boot"
+Using user config file "configs/default.user"
+Using controls config file "configs/default.controls"
+
+---- GPU Detection ----
+GPU 0 Active: NVIDIA GRID K280Q 3820 MB
+GPU 1		: NVIDIA GRID K280Q 3820 MB
+GPU 2		: Microsoft Basic Render Driver 8191 MB
+GPU 3		: Microsoft Basic Render Driver 8191 MB
+
+---- System ----
+OS:		Windows 10 (build 22000) 64-bit
+
+CPU:	Intel(R) Xeon(R) CPU E5-2640 0 @ 2.50GHz
+		Frequency: 2493MHz
+		Extensions:  MMX SSE SSE2 SSE3 SSSE3 SSE41 SSE42 AVX HTT
+		Cores:8 Threads:8
+
+		System memory: 16383 MB
+		Sync threads:  7
+		Async threads: 8
+
+GPU:	NVIDIA GRID K280Q
+		Video memory:  3820 MB
+
+
+---- Plugins ----
+Loading "FbxImporter_x64.dll"...
+Loading "GLTFImporter_x64.dll"...
+Loading "FbxExporter_x64.dll"...
+Plugins initialization: 84ms
+
+
+---- Application ----
+Loading "dxgi.dll"...
+Loading "openal32.dll"...
+Application initialization: 405ms
+
+
+
+---- Render ----
+Renderer: Unknown 3820MB
+Renderer API: Direct3D 11.0
+Maximum texture size:    16384
+Maximum texture units:   16
+
+---- Engine Microprofile ----
+MicroProfile: Web server started on port 1337
+Microprofile info:
+	Max frames: 500
+	Dump frames: 500
+	GPU: Enabled
+	Web server: Enabled
+	Web server port: 1337
+	Web server frames: 200
+
+---- Filesystem ----
+App path:  E:/unigine_project/unigine_project/bin/
+Data path: E:/unigine_project/unigine_project/data/
+Save path: E:/unigine_project/unigine_project/bin/
+WARNING:	FileSystemCore::mount_file(): can't mount "test/NodeDummy_1.node" file, because of GUID collision
+
+Runtimes loaded: 6 3ms
+Filesystem initialization: 4941ms
+
+---- Sound ----
+Renderer: OpenAL Soft on Удаленное аудио
+OpenAL vendor:   OpenAL Community
+OpenAL renderer: OpenAL Soft
+OpenAL version:  1.1 ALSOFT 1.19.1
+Found AL_EXT_LINEAR_DISTANCE
+Found AL_EXT_OFFSET
+Found ALC_EXT_EFX
+Found ALC_SOFT_HRTF
+Found EFX Filter
+Found EFX Reverb
+Found EAX Reverb
+Found QUAD16 format
+Found 51CHN16 format
+Found 61CHN16 format
+Found 71CHN16 format
+Device enumeration supported
+Maximum sources:         256
+Maximum effect slots:    16
+Maximum auxiliary sends: 2
+Output sampling frequency: 44100hz
+HRTF not enabled!
+
+---- Physics ----
+
+---- PathFind ----
+
+Loading controls "E:/unigine_project/unigine_project/data/configs/default.controls"...
+Loading "xinput1_4.dll"...
+Loading config "E:/unigine_project/unigine_project/data/configs/default.config"...
+
+---- Materials ----
+ERROR:	Material::loadXml(): can't find material name
+ERROR:	Material::load(): can't load "world_spline_graph_material.mat" file
+ERROR:	
+ERROR:	Materials without parent:
+ERROR:		"Rels_Strelka/TEST_OneMat_OneTex/Materials/Test_OneMat_Put-Strelka.mat" can't find material : 863ea5f9390f970417c93693f1c04ad66fea043d
+ERROR:		"Rels_Strelka/_Materials/Rels.mat" can't find material : 72bf28722d636d29d0fad4748925f54346a019c6
+ERROR:		"Rels_Strelka/_Materials/Shpala_Concrete/ShpalaConcrete_LOD0.mat" can't find material : 863ea5f9390f970417c93693f1c04ad66fea043d
+ERROR:		"Rels_Strelka/_Materials/Shpala_Concrete_LOD1/Shpala_LOD1.mat" can't find material : 863ea5f9390f970417c93693f1c04ad66fea043d
+ERROR:		"Rels_Strelka/_Materials/Shpala_Wood/ShpalaWood_LOD0.mat" can't find material : 863ea5f9390f970417c93693f1c04ad66fea043d
+Engine base materials loaded: 192 / 192 (372ms)
+Engine materials loaded:      70 / 70 (28ms)
+User materials loaded:        433 / 434 (372ms)
+Total materials: 695
+
+
+---- Properties ----
+Properties loaded:            2 / 2 (0ms)
+
+Processor registered "DefaultProcessor".
+Importer registered "FbxImporter".
+Processor registered "MergeStaticMeshes".
+Processor registered "MergeSimilarMaterials".
+Processor registered "MergeSurfacesByMaterials".
+Processor registered "CombineByPostfixes".
+Processor registered "SplitByBound".
+Processor registered "Repivot".
+Processor registered "CreateUV".
+Processor registered "CloseAnimation".
+Importer registered "GLTFImporter".
+Exporter registered "FbxExporter".
+Engine initialization: 9672ms
+
+
+Script loading "editor2/editor.usc" 93ms
+---- Editor ----
+Version: 2.13.0.0 ver-2.13.0.0-27a5e15 Dec 15 2020
+Binary: Windows MSVC 19.0.24215.1 
+
+ERROR:	"AssetManager::validate: Asset is invalid and can't be reimported because it is located inside a read-only mount point. GUID: 303fe6ecb2bbb55bd01c6afe934f96451a1612e0, new filepath: "
+ERROR:	"ValidateStage::run(): Asset file path is empty. GUID = guid://303fe6ecb2bbb55bd01c6afe934f96451a1612e0."
+ERROR:	Material::loadXml(): can't find material name
+ERROR:	Material::load(): can't load "world_spline_graph_material.mat" file
+ERROR:	
+ERROR:	"ImportMaterialStage: Material import error. (filepath: E:/unigine_project/unigine_project/data/world_spline_graph_material.mat)"
+WARNING:	FileSystem::addVirtualFile(): can't add "test/NodeDummy_1.node" file, because of GUID collision
+ERROR:	"ImportGenericStage:: File adding failed. (Source path: E:/unigine_project/unigine_project/data/test/NodeDummy_1.node)"
+[Build Tool] Project file is found ( "E:/unigine_project/unigine_project/unigine_project.project" ).
+Editor.PluginSystem: Plugin search paths:  QVector("E:/unigine_project/unigine_project/bin/editor")
+---- Interpreter ----
+Version: 2.90
+
+Unigine~# config_autosave 1 && world_load "unigine_project"
+Script loading "core/unigine.usc" 21ms
+Loading "core/locale/unigine.locale" dictionary 1ms
+World loading "unigine_project.world" 515ms
+
+---- Load cache textures ----
+Cache textures loaded 311 (81ms)
+
+ERROR:	Xml::load(): can't open "2" file
+ERROR:	World::loadNode(): can't open "2" file
+ERROR:	WorldSplineGraph::load_source_node(): can't load source node from 2
+ERROR:	WorldSplineGraph::addSourceNode(): can't load "2" node
+ERROR:	Xml::load(): can't open "2" file
+ERROR:	World::loadNode(): can't open "2" file
+ERROR:	WorldSplineGraph::load_source_node(): can't load source node from 2
+ERROR:	WorldSplineGraph::addSourceNode(): can't load "2" node
+ERROR:	Xml::load(): can't open "5" file
+ERROR:	World::loadNode(): can't open "5" file
+ERROR:	WorldSplineGraph::load_source_node(): can't load source node from 5
+ERROR:	WorldSplineGraph::addSourceNode(): can't load "5" node
+ERROR:	Xml::load(): can't open "5" file
+ERROR:	World::loadNode(): can't open "5" file
+ERROR:	WorldSplineGraph::load_source_node(): can't load source node from 5
+ERROR:	WorldSplineGraph::addSourceNode(): can't load "5" node
+ERROR:	Xml::load(): can't open "5" file
+ERROR:	World::loadNode(): can't open "5" file
+ERROR:	WorldSplineGraph::load_source_node(): can't load source node from 5
+ERROR:	WorldSplineGraph::addSourceNode(): can't load "5" node
+ERROR:	Xml::load(): can't open "5" file
+ERROR:	World::loadNode(): can't open "5" file
+ERROR:	WorldSplineGraph::load_source_node(): can't load source node from 5
+ERROR:	WorldSplineGraph::addSourceNode(): can't load "5" node
+Unigine~# world_save
+Saving "unigine_project.world"
+Unigine~# world_save
+Saving "unigine_project.world"
+Unigine~# world_save
+Saving "unigine_project.world"
+Unigine~# world_save
+Saving "unigine_project.world"
+WARNING:	unknown tool window

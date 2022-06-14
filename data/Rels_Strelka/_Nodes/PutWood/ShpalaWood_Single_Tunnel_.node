@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.13.0.0">
+	<node type="ObjectMeshStatic" id="1778080139" name="ShpalaWood_Single_">
+		<mesh_name>guid://1a7d29302e6965a3f0a7214caf9000181c1acc4d</mesh_name>
+		<surface name="PodkladkaWood_LOD0_" intersection_mask="0x9" min_parent="0" max_parent="0" max_visible_distance="18" min_fade_distance="2" max_fade_distance="2" physics_friction="1" physics_restitution="1" material="8430a58db77f0b7d4850892f024837fcb329c0d5" property="d99ebc8ef5769d70b1e46992309cc3e7d1aa2faa"/>
+		<surface name="ShpalaWoodType1_LOD0_" intersection_mask="0x9" min_parent="0" max_parent="0" max_visible_distance="18" min_fade_distance="2" max_fade_distance="2" physics_friction="1" physics_restitution="1" material="f7be15b2c2b065c8027c3376485215dae95b30a0" property="d99ebc8ef5769d70b1e46992309cc3e7d1aa2faa"/>
+		<surface name="ShpalaWood_LOD1_" intersection_mask="0x9" min_parent="0" max_parent="0" min_visible_distance="16" max_visible_distance="2000" min_fade_distance="2" max_fade_distance="2" physics_friction="1" physics_restitution="1" material="b3d51ff060bdf35825e8ecabf8a7263bbfd81e4a" property="d99ebc8ef5769d70b1e46992309cc3e7d1aa2faa"/>
+		<transform>0.999999642372 0 0 0.0 0 0.999999642372 0 0.0 0 0 0.999999940395 0.0 0 0 0 1.0</transform>
+	</node>
+</nodes>

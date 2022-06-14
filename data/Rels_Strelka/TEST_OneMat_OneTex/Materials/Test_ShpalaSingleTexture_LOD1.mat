@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.13.0.0" name="Test_ShpalaSingleTexture_LOD1" guid="04bf1bf3d6ad2e7d56d52e212224cd151dbb9eb5" parent="d9f54f31fbc3e0465ecf650ab4673746f5064485" base_material="mesh_base">
+	<blend src="src_alpha" dest="one_minus_src_alpha"/>
+	<options transparent="2"/>
+	<texture name="albedo">guid://7c2beb67ba1ced70a2e90c392378c3e53a7a7b8a</texture>
+	<texture name="shading">guid://20b5e3df1a6e98f858a24e6930bee8a69883f3ef</texture>
+	<texture name="normal">guid://9669193bf2259d64cf3714d73e954ba6d64bc69c</texture>
+</material>

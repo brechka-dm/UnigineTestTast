@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.13.0.0">
+	<node type="ObjectMeshSkinned" id="2097884440" name="Test_OneMat_Strelka_1-9_LL_Beton_AnimationPart_">
+		<mesh_name>guid://468d474118c37e132f848a764fde88572c0c0c90</mesh_name>
+		<fps_visible_camera>-1</fps_visible_camera>
+		<fps_visible_shadow>30</fps_visible_shadow>
+		<fps_invisible>0</fps_invisible>
+		<anim_name>guid://bdaef32b6c8baa962dcf2717fbcd3c0b04a7a348</anim_name>
+		<loop>1</loop>
+		<time>15.5882215</time>
+		<speed>25</speed>
+		<playing>1</playing>
+		<surface name="Privod-L_LOD0_" enabled="0" min_parent="0" max_parent="0" max_visible_distance="100" min_fade_distance="1" max_fade_distance="1" physics_friction="1" physics_restitution="1" material="535da761eb2379469362dc4056a4fcaa4784e979"/>
+		<surface name="Privod-L_LOD1_" enabled="0" cast_shadow="0" cast_world_shadow="0" intersection="0" min_parent="0" max_parent="0" min_visible_distance="100" max_visible_distance="1000" min_fade_distance="1" max_fade_distance="1" physics_friction="1" physics_restitution="1" material="13d32d01c6bbca0fe9f0353998249f44e4982a72"/>
+		<surface name="Privod-R_LOD0_" min_parent="0" max_parent="0" max_visible_distance="100" min_fade_distance="1" max_fade_distance="1" physics_friction="1" physics_restitution="1" material="535da761eb2379469362dc4056a4fcaa4784e979"/>
+		<surface name="Privod-R_LOD1_" cast_shadow="0" cast_world_shadow="0" intersection="0" min_parent="0" max_parent="0" min_visible_distance="100" max_visible_distance="1000" min_fade_distance="1" max_fade_distance="1" physics_friction="1" physics_restitution="1" material="13d32d01c6bbca0fe9f0353998249f44e4982a72"/>
+		<surface name="RelsOstryak_LOD0_" min_parent="0" max_parent="0" max_visible_distance="100" min_fade_distance="1" max_fade_distance="1" physics_friction="1" physics_restitution="1" material="535da761eb2379469362dc4056a4fcaa4784e979"/>
+		<surface name="RelsOstryak_LOD1_" cast_shadow="0" cast_world_shadow="0" intersection="0" min_parent="0" max_parent="0" min_visible_distance="100" max_visible_distance="1000" min_fade_distance="1" max_fade_distance="1" physics_friction="1" physics_restitution="1" material="13d32d01c6bbca0fe9f0353998249f44e4982a72"/>
+		<transform>0.999999880791 0 0 0.0 0 0.999999880791 0 0.0 0 0 0.999999940395 0.0 4.12114786741e-13 4.12114786741e-13 0 1.0</transform>
+		<node type="WorldTransformPath" id="1899170543" name="leftPath">
+			<path_name>guid://d8a0640417c4dc9b2a66bf89c0d9c40907d529b6</path_name>
+			<loop>1</loop>
+			<speed>1</speed>
+			<transform>5.96046412227e-08 0.999999880791 0 0.0 -0.999999880791 5.96046412227e-08 0 0.0 0 0 1 0.0 1.50995802528e-07 0 0.380560666323 1.0</transform>
+		</node>
+		<node type="WorldTransformPath" id="1669385786" name="rightPath">
+			<path_name>guid://39a06db89523232df459c7b46f0e2e9bad29a5bd</path_name>
+			<loop>1</loop>
+			<speed>1</speed>
+			<transform>5.96046412227e-08 0.999999880791 0 0.0 -0.999999880791 5.96046412227e-08 0 0.0 0 0 1 0.0 1.50995802528e-07 0 0.380560666323 1.0</transform>
+		</node>
+		<node type="NodeDummy" id="1066173470" name="NodeDummy">
+			<properties>
+				<property parent="ffe4bbd5b4cd6bef66001e73bd8085f99d8afb35" guid="5cba91597982cae4552e18f35d7209b65dddf59d"/>
+			</properties>
+			<transform>1.00000005961 0 0 0.0 0 1.00000005961 0 0.0 0 0 1.00000005961 0.0 0 0 0 1.0</transform>
+		</node>
+		<node type="NodeDummy" id="1509915129" name="NodeDummy_1">
+			<properties>
+				<property parent="ffe4bbd5b4cd6bef66001e73bd8085f99d8afb35" guid="6ce5fa58d873b9d77c5a0d4aba871c2149b9870c">
+					<parameter name="index">1</parameter>
+				</property>
+			</properties>
+			<transform>1.00000005961 0 0 0.0 0 1.00000005961 0 0.0 0 0 1.00000005961 0.0 -2.846 38.371 0 1.0</transform>
+		</node>
+		<node type="NodeDummy" id="37290931" name="NodeDummy_2">
+			<properties>
+				<property parent="ffe4bbd5b4cd6bef66001e73bd8085f99d8afb35" guid="16d596fb3df2a01eb07b08e51696a50084d3545f">
+					<parameter name="index">2</parameter>
+				</property>
+			</properties>
+			<transform>1.00000005961 0 0 0.0 0 1.00000005961 0 0.0 0 0 1.00000005961 0.0 0 38.527 0 1.0</transform>
+		</node>
+		<node type="NodeDummy" id="1828781538" name="NodeDummy_3">
+			<properties>
+				<property parent="ffe4bbd5b4cd6bef66001e73bd8085f99d8afb35" guid="6c0f1632e6ecffe9622fc834cfb4d603bc2e0386">
+					<parameter name="index">-1</parameter>
+				</property>
+			</properties>
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1.00000005961 0.0 0 5 0 1.0</transform>
+		</node>
+	</node>
+</nodes>

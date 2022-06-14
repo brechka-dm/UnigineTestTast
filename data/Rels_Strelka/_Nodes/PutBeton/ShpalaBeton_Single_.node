@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.13.0.0">
+	<node type="ObjectMeshStatic" id="1252804086" name="ShpalaBeton_Single_">
+		<mesh_name>guid://0bf6a9e81f4ac0e9a32c6c9beaec38100f70bb41</mesh_name>
+		<surface name="PodkladkaKB_LOD0_" intersection_mask="0x9" min_parent="0" max_parent="0" max_visible_distance="25" min_fade_distance="10" max_fade_distance="10" physics_friction="1" physics_restitution="1" material="bb4f582cfa0ab4c9efcd95652955b267add81821" property="d99ebc8ef5769d70b1e46992309cc3e7d1aa2faa"/>
+		<surface name="ShpalaBeton_LOD0_" intersection_mask="0x9" min_parent="0" max_parent="0" max_visible_distance="25" min_fade_distance="10" max_fade_distance="10" physics_friction="1" physics_restitution="1" material="a41ead7d04c23f3702babc81be4f3400536ab320" property="d99ebc8ef5769d70b1e46992309cc3e7d1aa2faa"/>
+		<surface name="ShpalaBeton_LOD1_" intersection_mask="0x9" min_parent="0" max_parent="0" min_visible_distance="15" max_visible_distance="700" min_fade_distance="10" max_fade_distance="50" physics_friction="1" physics_restitution="1" material="ccc04051f05f0cbe734244968ac62312f1be4f7b" property="d99ebc8ef5769d70b1e46992309cc3e7d1aa2faa"/>
+		<transform>0.999999761581 0 0 0.0 0 0.999999642372 0 0.0 0 0 0.999999821186 0.0 0 0 0 1.0</transform>
+	</node>
+</nodes>

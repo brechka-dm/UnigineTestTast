@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.13.0.0" name="ConcreteStdShpala_011_MAIN" guid="6963e150592ad99bd7e1bf8bab2ce30a475fc3e2" parent="a37e585b9fd9d66c6dc4a71ea735d378c22c2f22" base_material="mesh_base">
+	<texture name="albedo">guid://c49e7229b06630c5e1c10c126ac2a9f08b620a7d</texture>
+	<texture name="shading">guid://504b02199dec1a965f2cb584d4f6c6b97721672a</texture>
+	<texture name="normal">guid://0f037db5ea26374874afe414c5ea983ea8985d3c</texture>
+	<texture name="ambient_occlusion">guid://80bb551f30d8fa660147780d8baa9365d255fdbb</texture>
+</material>

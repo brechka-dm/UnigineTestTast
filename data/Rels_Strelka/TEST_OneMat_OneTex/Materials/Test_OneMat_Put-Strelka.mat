@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.13.0.0" name="Test_OneMat_Put-Strelka" guid="20618b780b675d5cde923b56e48d90573994aec8" parent="863ea5f9390f970417c93693f1c04ad66fea043d" base_material="mesh_base">
+	<parameter name="albedo_color" expression="0">0.470588267 0.470588267 0.470588267 1</parameter>
+</material>

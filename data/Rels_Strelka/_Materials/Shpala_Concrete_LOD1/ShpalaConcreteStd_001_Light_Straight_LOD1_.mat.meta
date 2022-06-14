@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>3c5341221d128205e2a85b06bf7af2f2e66db3c2</guid>
+	<type>material</type>
+	<hash>d1a87e72</hash>
+	<runtimes>
+		<runtime id="3c5341221d128205e2a85b06bf7af2f2e66db3c2" name="ShpalaConcreteStd_001_Light_Straight_LOD1_" link="0"/>
+	</runtimes>
+</asset>

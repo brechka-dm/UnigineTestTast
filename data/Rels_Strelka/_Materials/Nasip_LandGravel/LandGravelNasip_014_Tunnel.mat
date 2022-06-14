@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.13.0.0" name="LandGravelNasip_014_Tunnel" guid="aee682c36defc7b2c9a765300a450d67b5b9aa9f" parent="bf482a374792dc012a3c280332c0f1483c6ec55e" base_material="mesh_base">
+	<parameter name="material_mask" expression="0">16</parameter>
+</material>

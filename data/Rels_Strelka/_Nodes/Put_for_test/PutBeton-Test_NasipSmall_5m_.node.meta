@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>678e1d8e2901014501c2617b07debe58fe254a7a</guid>
+	<type>node</type>
+	<hash>9cd82d0a</hash>
+	<runtimes>
+		<runtime id="678e1d8e2901014501c2617b07debe58fe254a7a" name="PutBeton-Test_NasipSmall_5m_.node" link="0"/>
+	</runtimes>
+</asset>

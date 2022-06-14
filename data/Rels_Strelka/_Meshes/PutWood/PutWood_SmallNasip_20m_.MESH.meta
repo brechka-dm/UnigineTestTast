@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>37d01631612d33126ef19ba52a16a2a54f630f94</guid>
+	<type>mesh</type>
+	<hash>3a73b5</hash>
+	<runtimes>
+		<runtime id="37d01631612d33126ef19ba52a16a2a54f630f94" name="PutWood_SmallNasip_20m_.MESH" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+		<parameter type="float" name="scale">1</parameter>
+		<parameter type="bool" name="animation">1</parameter>
+		<parameter type="bool" name="vertex_cache">1</parameter>
+	</parameters>
+</asset>

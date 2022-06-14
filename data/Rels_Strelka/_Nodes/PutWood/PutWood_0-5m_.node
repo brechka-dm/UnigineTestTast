@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.13.0.0">
+	<node type="ObjectMeshStatic" id="1168504355" name="PutWood_0-5m_">
+		<mesh_name>guid://1a9044ed1d1b306b840da2fec7a09193fcf2a30d</mesh_name>
+		<surface name="Nasip-0-5m_LOD0_" min_parent="0" max_parent="0" max_visible_distance="300" min_fade_distance="20" max_fade_distance="20" physics_friction="1" physics_restitution="1" material="bf482a374792dc012a3c280332c0f1483c6ec55e" property="d99ebc8ef5769d70b1e46992309cc3e7d1aa2faa"/>
+		<surface name="Nasip-0-5m_LOD1_" cast_shadow="0" cast_world_shadow="0" min_parent="0" max_parent="0" min_visible_distance="300" max_visible_distance="2000" min_fade_distance="20" max_fade_distance="20" physics_friction="1" physics_restitution="1" material="bf482a374792dc012a3c280332c0f1483c6ec55e" property="d99ebc8ef5769d70b1e46992309cc3e7d1aa2faa"/>
+		<surface name="PodkladkaWood_LOD0_" intersection="0" min_parent="0" max_parent="0" max_visible_distance="25" min_fade_distance="5" max_fade_distance="5" physics_friction="1" physics_restitution="1" material="bb4f582cfa0ab4c9efcd95652955b267add81821" property="d99ebc8ef5769d70b1e46992309cc3e7d1aa2faa"/>
+		<surface name="Rels-0-5m_LOD0_" min_parent="0" max_parent="0" max_visible_distance="200" min_fade_distance="10" max_fade_distance="10" physics_friction="1" physics_restitution="1" material="bb4f582cfa0ab4c9efcd95652955b267add81821" property="d99ebc8ef5769d70b1e46992309cc3e7d1aa2faa"/>
+		<surface name="Rels-0-5m_LOD1_" cast_shadow="0" cast_world_shadow="0" intersection="0" min_parent="0" max_parent="0" min_visible_distance="200" max_visible_distance="2000" min_fade_distance="10" max_fade_distance="10" physics_friction="1" physics_restitution="1" material="bb4f582cfa0ab4c9efcd95652955b267add81821" property="d99ebc8ef5769d70b1e46992309cc3e7d1aa2faa"/>
+		<surface name="ShpalaWoodType1_LOD0_" intersection="0" min_parent="0" max_parent="0" max_visible_distance="25" min_fade_distance="10" max_fade_distance="10" physics_friction="1" physics_restitution="1" material="13230d91aa1b88219ee85f583a4c8574b1ba9acc" property="d99ebc8ef5769d70b1e46992309cc3e7d1aa2faa"/>
+		<surface name="ShpalaWood_LOD1_" cast_shadow="0" cast_world_shadow="0" intersection="0" min_parent="0" max_parent="0" min_visible_distance="15" max_visible_distance="2000" min_fade_distance="10" max_fade_distance="10" physics_friction="1" physics_restitution="1" material="2fe6dd6ce1365f38ad5c806f890d6fca354c4578" property="d99ebc8ef5769d70b1e46992309cc3e7d1aa2faa"/>
+		<transform>0.999999940395 0 0 0.0 0 0.999999940395 0 0.0 0 0 0.999999940395 0.0 0 0 0 1.0</transform>
+	</node>
+</nodes>

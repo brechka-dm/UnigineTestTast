@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.13.0.0" name="ShpalaWood_Straight_LOD1_" guid="2fe6dd6ce1365f38ad5c806f890d6fca354c4578" parent="fcccf99fc780a91abd8419789ace97dcdbe36659" base_material="mesh_base">
+	<parameter name="albedo_color" expression="0">0.650980413 0.650980413 0.650980413 1</parameter>
+</material>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>b57145750ff290c7904fe96300b7b87a721156c2</guid>
+	<type>node</type>
+	<hash>656e5c83</hash>
+	<runtimes>
+		<runtime id="b57145750ff290c7904fe96300b7b87a721156c2" name="PutWood_NasipSmall_5m_.node" link="0"/>
+	</runtimes>
+</asset>

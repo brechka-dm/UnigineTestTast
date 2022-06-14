@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>3c8d00cd84a1aac8225dd8f4d58e56bc9819f715</guid>
+	<type>node</type>
+	<hash>7f029be6</hash>
+	<runtimes>
+		<runtime id="3c8d00cd84a1aac8225dd8f4d58e56bc9819f715" name="Test_OneMat_Strelka_1-9_RR_Beton_AnimationPart_.node" link="0"/>
+	</runtimes>
+</asset>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>1a9044ed1d1b306b840da2fec7a09193fcf2a30d</guid>
+	<type>mesh</type>
+	<hash>69fdfce2</hash>
+	<runtimes>
+		<runtime id="1a9044ed1d1b306b840da2fec7a09193fcf2a30d" name="PutWood_0-5m_.MESH" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+		<parameter type="float" name="scale">1</parameter>
+		<parameter type="bool" name="animation">1</parameter>
+		<parameter type="bool" name="vertex_cache">1</parameter>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

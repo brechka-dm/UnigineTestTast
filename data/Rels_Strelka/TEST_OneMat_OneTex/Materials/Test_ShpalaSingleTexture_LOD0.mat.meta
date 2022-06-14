@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>d9f54f31fbc3e0465ecf650ab4673746f5064485</guid>
+	<type>material</type>
+	<hash>98a134d1</hash>
+	<runtimes>
+		<runtime id="d9f54f31fbc3e0465ecf650ab4673746f5064485" name="Test_ShpalaSingleTexture_LOD0" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

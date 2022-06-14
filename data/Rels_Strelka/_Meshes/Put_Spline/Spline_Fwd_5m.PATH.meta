@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>1d503de590d4fd25c8ed985700faafaa95523c45</guid>
+	<type>path</type>
+	<hash>a4c6724d</hash>
+	<runtimes>
+		<runtime id="1d503de590d4fd25c8ed985700faafaa95523c45" name="Spline_Fwd_5m.PATH" link="0"/>
+	</runtimes>
+</asset>

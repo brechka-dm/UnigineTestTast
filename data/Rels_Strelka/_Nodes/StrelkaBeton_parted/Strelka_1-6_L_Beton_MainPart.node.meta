@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>e8bd5e933d5095732f9e3703f98bd9316d5ef622</guid>
+	<type>node</type>
+	<hash>6ccb0b22</hash>
+	<runtimes>
+		<runtime id="e8bd5e933d5095732f9e3703f98bd9316d5ef622" name="Strelka_1-6_L_Beton_MainPart.node" link="0"/>
+	</runtimes>
+</asset>

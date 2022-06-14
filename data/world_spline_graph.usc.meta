@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>97837c116f34063c386b2c6b2405d6ce5e6eefd5</guid>
+	<type>script</type>
+	<hash>84cfdfab</hash>
+	<runtimes>
+		<runtime id="97837c116f34063c386b2c6b2405d6ce5e6eefd5" name="world_spline_graph.usc" link="0"/>
+	</runtimes>
+</asset>

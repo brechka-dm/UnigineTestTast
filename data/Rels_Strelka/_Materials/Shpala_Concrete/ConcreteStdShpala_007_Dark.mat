@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.13.0.0" name="ConcreteStdShpala_007_Dark" guid="080739dfa23564a7ff88426aba6e4879ac4787e3" parent="7a980f52ae0376ee00d586608e6f173bb8185573" base_material="mesh_base">
+	<parameter name="albedo_color" expression="0">0.31764707 0.31764707 0.31764707 1</parameter>
+</material>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.15.1.0">
+	<node type="ObjectMeshStatic" id="1840142029" name="plane_0">
+		<mesh_name>plane_hi_poly.mesh</mesh_name>
+		<surface name="plane" material="0b9bd74e87552363b112f62bb86526e12e40a55e" min_visible_distance="-500" max_visible_distance="500" lighting_mode="0"/>
+		<transform>0.999999940395 0 0 0.0 0 0.999999940395 0 0.0 0 0 0.999999940395 0.0 0 0 0 1.0</transform>
+	</node>
+</nodes>

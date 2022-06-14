@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.13.0.0">
+	<node type="NodeDummy" id="929378359" name="Up_box">
+		<transform>0.99999976 0 0 0.0 0 0.99999976 0 0.0 0 0 0.99999988 0.0 0 0 0 1.0</transform>
+		<node type="NodeDummy" id="316767652" name="Poezd">
+			<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999988 0.0 0 0 0 1.0</transform>
+			<node type="NodeDummy" id="1318968975" name="NIZ">
+				<transform>0.99999988 0 0 0.0 0 0.99999976 0 0.0 0 0 0.99999982 0.0 0 0 0.40845874 1.0</transform>
+				<node type="ObjectMeshStatic" id="1562390325" name="Cuboid_1">
+					<mesh_name>guid://4aab993a5cdcd751f859287c533369ab43d8730e</mesh_name>
+					<surface name="box" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+					<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 0.0063314424 -0.013461053 0.42011929 1.0</transform>
+				</node>
+				<node type="ObjectMeshStatic" id="1708560220" name="cheplalka_pered">
+					<mesh_name>guid://707f7fa93746c4f479542bc3352fde46b74320ed</mesh_name>
+					<surface name="box" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+					<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 0.045781605 2.8738389 0.41550946 1.0</transform>
+				</node>
+				<node type="ObjectMeshStatic" id="1701865268" name="cheplalka_zad">
+					<mesh_name>guid://707f7fa93746c4f479542bc3352fde46b74320ed</mesh_name>
+					<surface name="box" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+					<transform>0.99999988 0 0 0.0 0 0.99999988 0 0.0 0 0 0.99999994 0.0 0.045781605 -3.4663434 0.41550946 1.0</transform>
+				</node>
+			</node>
+			<node type="ObjectMeshStatic" id="1075073703" name="Cuboid_4">
+				<mesh_name>guid://7d906191aaccadbc6d68adeb7bfe6a4e48536d55</mesh_name>
+				<surface name="box" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+				<transform>0.99999988 0 0 0.0 0 0.99999976 0 0.0 0 0 0.99999982 0.0 0 0 1.6017598 1.0</transform>
+			</node>
+		</node>
+	</node>
+</nodes>

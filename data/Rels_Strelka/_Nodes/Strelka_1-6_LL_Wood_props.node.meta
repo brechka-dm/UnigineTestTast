@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>2a27fa99126cd8a722c8741d2074fb4972a6bd2e</guid>
+	<type>node</type>
+	<hash>25bc7ae</hash>
+	<runtimes>
+		<runtime id="2a27fa99126cd8a722c8741d2074fb4972a6bd2e" name="Strelka_1-6_LL_Wood_props.node" link="0"/>
+	</runtimes>
+</asset>

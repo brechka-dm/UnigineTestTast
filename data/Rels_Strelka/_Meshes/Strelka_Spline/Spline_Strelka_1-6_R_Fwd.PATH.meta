@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>95f9c645c368341bcd2da428ca0ab1fb2b6cc9e1</guid>
+	<type>path</type>
+	<hash>7f5f2e0e</hash>
+	<runtimes>
+		<runtime id="95f9c645c368341bcd2da428ca0ab1fb2b6cc9e1" name="Spline_Strelka_1-6_R_Fwd.PATH" link="0"/>
+	</runtimes>
+</asset>

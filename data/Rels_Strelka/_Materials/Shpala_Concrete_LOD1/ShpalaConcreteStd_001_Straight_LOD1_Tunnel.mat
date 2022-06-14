@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.13.0.0" name="ShpalaConcreteStd_001_Straight_LOD1_Tunnel" guid="d30b072177e4d69768fcca8587e4f658ad34bcc6" parent="ccc04051f05f0cbe734244968ac62312f1be4f7b" base_material="mesh_base">
+	<parameter name="material_mask" expression="0">16</parameter>
+</material>

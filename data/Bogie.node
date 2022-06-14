@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.13.0.0">
+	<node type="NodeDummy" id="1570086954" name="Bogie">
+		<transform>0.99999869 0 0 0.0 0 0.99999839 0 0.0 0 0 0.99999774 0.0 0 0 0 1.0</transform>
+		<node type="ObjectMeshStatic" id="1056569919" name="Cylinder">
+			<mesh_name>guid://783ff745f9f0ffe0f07f31bffc5d9412cbf0a449</mesh_name>
+			<surface name="cylinder" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+			<transform>0.00034546843 0 -0.9999997 0.0 0 0.99999976 0 0.0 0.99999976 0 0.00034546843 0.0 0.80089676 0.55594969 -0.17334583 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="2030476634" name="Cuboid">
+			<mesh_name>guid://34315defbab4f2827ef10ff94a5af90493a93093</mesh_name>
+			<surface name="box" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+			<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0.32924944 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="1649851521" name="Cylinder_1">
+			<mesh_name>guid://783ff745f9f0ffe0f07f31bffc5d9412cbf0a449</mesh_name>
+			<surface name="cylinder" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+			<transform>0.00048851955 0 -0.99999958 0.0 0 0.99999976 0 0.0 0.99999958 0 0.00048851955 0.0 -0.78018224 0.55594969 -0.17334585 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="847587116" name="Cylinder_2">
+			<mesh_name>guid://783ff745f9f0ffe0f07f31bffc5d9412cbf0a449</mesh_name>
+			<surface name="cylinder" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+			<transform>0.00048851955 0 -0.99999958 0.0 0 0.99999976 0 0.0 0.99999958 0 0.00048851955 0.0 0.80089676 -0.96979392 -0.17334585 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="769334176" name="Cylinder_3">
+			<mesh_name>guid://783ff745f9f0ffe0f07f31bffc5d9412cbf0a449</mesh_name>
+			<surface name="cylinder" physics_friction="1" physics_restitution="1" material="401e90ccd85f4f2bb97c19ab9e1351325c4012eb"/>
+			<transform>0.00048851955 0 -0.99999958 0.0 0 0.99999976 0 0.0 0.99999952 0 0.00048851949 0.0 -0.78018224 -0.96979392 -0.17334586 1.0</transform>
+		</node>
+	</node>
+</nodes>

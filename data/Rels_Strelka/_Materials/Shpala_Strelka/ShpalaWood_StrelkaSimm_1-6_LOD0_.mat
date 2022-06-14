@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.13.0.0" name="ShpalaWood_StrelkaSimm_1-6_LOD0_" guid="67f9ee5fb21c83c0bc4ed9134b28e9a2d99e14de" parent="0b6925ffe254de555e08a6b1290bbc14ce1d9b91" base_material="mesh_base">
+	<state name="detail">1</state>
+	<texture name="detail_albedo">guid://c05dd93682d7d94daa6fb3e232ce2d206dcf7320</texture>
+	<parameter name="detail_albedo_color" expression="0">0 0 0 1</parameter>
+</material>

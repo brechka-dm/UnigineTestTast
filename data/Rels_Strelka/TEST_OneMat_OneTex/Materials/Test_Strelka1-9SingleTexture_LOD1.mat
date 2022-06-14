@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.13.0.0" name="Test_Strelka1-9SingleTexture_LOD1" guid="13d32d01c6bbca0fe9f0353998249f44e4982a72" parent="535da761eb2379469362dc4056a4fcaa4784e979" base_material="mesh_base">
+	<blend src="src_alpha" dest="one_minus_src_alpha"/>
+	<options transparent="2"/>
+	<texture name="albedo">guid://b8f0c7530469b44ff2543524d2041ccbc2f46618</texture>
+	<texture name="shading">guid://d084b993424dda6b08aced2b189bca3bd0b80bd7</texture>
+	<texture name="normal">guid://b4f9fda8bafb9fa32d08bd1728b5f11faebf5da5</texture>
+</material>

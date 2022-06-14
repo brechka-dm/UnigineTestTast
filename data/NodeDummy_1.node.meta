@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>e09d1fc75981da7adafda791c93d3bbcafb3e3eb</guid>
+	<type>node</type>
+	<hash>e5ab754c</hash>
+	<runtimes>
+		<runtime id="e09d1fc75981da7adafda791c93d3bbcafb3e3eb" name="NodeDummy_1.node" link="0"/>
+	</runtimes>
+</asset>

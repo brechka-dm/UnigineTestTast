@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>0bf6a9e81f4ac0e9a32c6c9beaec38100f70bb41</guid>
+	<type>mesh</type>
+	<hash>fa98c9b1</hash>
+	<runtimes>
+		<runtime id="0bf6a9e81f4ac0e9a32c6c9beaec38100f70bb41" name="ShpalaBeton_Single.MESH" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+		<parameter type="float" name="scale">1</parameter>
+		<parameter type="bool" name="animation">1</parameter>
+		<parameter type="bool" name="vertex_cache">1</parameter>
+	</parameters>
+</asset>

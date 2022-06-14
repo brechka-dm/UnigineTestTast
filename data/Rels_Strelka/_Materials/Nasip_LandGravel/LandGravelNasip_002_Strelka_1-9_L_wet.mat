@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.13.0.0" name="LandGravelNasip_002_Strelka_1-9_L_wet" guid="5c71fa2a5e90588217cfb7a23d0c0d316753bc7b" parent="e8d726cbb73c232d1713342095f29f1e3841a044" base_material="mesh_base">
+	<parameter name="metalness" expression="0">0.200000003</parameter>
+	<parameter name="roughness" expression="0">0.300000012</parameter>
+</material>

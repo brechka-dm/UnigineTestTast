@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>5776674ef615d823cd4b39a2cf82ddbc245bf966</guid>
+	<type>mesh</type>
+	<hash>4dd93f29</hash>
+	<runtimes>
+		<runtime id="5776674ef615d823cd4b39a2cf82ddbc245bf966" name="Strelka_1-11_R_Beton_MainPart.mesh" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+		<parameter type="float" name="scale">1</parameter>
+		<parameter type="bool" name="animation">1</parameter>
+		<parameter type="bool" name="vertex_cache">1</parameter>
+	</parameters>
+</asset>

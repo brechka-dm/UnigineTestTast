@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>0077cc43ced67b762f0715322af2dd01111bcb15</guid>
+	<type>mesh</type>
+	<hash>e26d43d5</hash>
+	<runtimes>
+		<runtime id="0077cc43ced67b762f0715322af2dd01111bcb15" name="PutBetonKB_5m_.MESH" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+		<parameter type="float" name="scale">1</parameter>
+		<parameter type="bool" name="animation">1</parameter>
+		<parameter type="bool" name="vertex_cache">1</parameter>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.13.0.0" name="LandBaseNasip" guid="cfb9620f5310b9d26f3956b394f8db6c6044ae61" base_material="mesh_base">
+	<state name="ao_map">1</state>
+	<state name="specular_map">1</state>
+	<state name="detail">1</state>
+	<state name="detail_mapping">2</state>
+	<state name="parallax_depth_cutout">1</state>
+	<parameter name="albedo_color" expression="0">0.501960814 0.501960814 0.501960814 1</parameter>
+	<parameter name="metalness" expression="0">1</parameter>
+	<parameter name="detail_albedo_color" expression="0">0 0 0 1</parameter>
+	<parameter name="detail_metalness_visible" expression="0">0</parameter>
+	<parameter name="parallax_scale" expression="0">0.00999999978</parameter>
+</material>

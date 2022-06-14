@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.13.0.0" name="ShpalaBeton_Strelka_1-11_L_LOD1_" guid="4cbf8c402e3ba24b47314b1001bfd5be876a0183" parent="fcccf99fc780a91abd8419789ace97dcdbe36659" base_material="mesh_base">
+	<blend src="src_alpha" dest="one_minus_src_alpha"/>
+	<options transparent="2"/>
+	<texture name="albedo">guid://20e310b5a44f02bb356757ab8e588122f1d7e15d</texture>
+	<texture name="shading">guid://61380f04e1a5ae619f665869291b769a43d7c80f</texture>
+	<texture name="detail_albedo">guid://198403558b9a6ac2522990f5c17eefc6349fbddc</texture>
+	<parameter name="albedo_color" expression="0">0.392156899 0.392156899 0.392156899 1</parameter>
+	<parameter name="parallax_scale" expression="0">0.00999999978</parameter>
+</material>

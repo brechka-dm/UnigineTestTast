@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.13.0.0" name="ShpalaConcreteStd_001_Straight_LOD1_" guid="ccc04051f05f0cbe734244968ac62312f1be4f7b" parent="fcccf99fc780a91abd8419789ace97dcdbe36659" base_material="mesh_base">
+	<blend src="src_alpha" dest="one_minus_src_alpha"/>
+	<options transparent="2" depth_mask="1"/>
+	<texture name="albedo">guid://0228d8e91ff05a5c5c5fb64a5639b1fa1cfc69ab</texture>
+	<texture name="shading">guid://b3e88e1bc214500f71842c3512149e588f480d05</texture>
+	<parameter name="albedo_color" expression="0">0.384313762 0.384313762 0.384313762 1</parameter>
+</material>

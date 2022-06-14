@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>7a59b51bbff56be2bd76de32da2067c209042beb</guid>
+	<type>mesh</type>
+	<hash>03253b9d</hash>
+	<runtimes>
+		<runtime id="7a59b51bbff56be2bd76de32da2067c209042beb" name="Put-Test_NasipSmall_5m_Beton.MESH" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+		<parameter type="float" name="scale">1</parameter>
+		<parameter type="bool" name="animation">1</parameter>
+		<parameter type="bool" name="vertex_cache">1</parameter>
+	</parameters>
+</asset>

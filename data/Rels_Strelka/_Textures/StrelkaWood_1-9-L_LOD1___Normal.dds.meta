@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>13f9cdd5dfbff0e04c3f41c1ad70e39021b94be6</guid>
+	<type>texture</type>
+	<hash>02b7fe78</hash>
+	<runtimes>
+		<runtime id="13f9cdd5dfbff0e04c3f41c1ad70e39021b94be6" name="StrelkaWood_1-9-L_LOD1___Normal.dds" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="mipmap_type">box</parameter>
+		<parameter type="string" name="image_format">ATI2</parameter>
+		<parameter type="bool" name="invert_g">0</parameter>
+		<parameter type="string" name="image_type">2d</parameter>
+		<parameter type="string" name="width">Original</parameter>
+		<parameter type="string" name="height">Original</parameter>
+		<parameter type="bool" name="srgb_correction">1</parameter>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

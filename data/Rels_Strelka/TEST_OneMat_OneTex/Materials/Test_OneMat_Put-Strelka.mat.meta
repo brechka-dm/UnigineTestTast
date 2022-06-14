@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>20618b780b675d5cde923b56e48d90573994aec8</guid>
+	<type>material</type>
+	<hash>3e00497b</hash>
+	<runtimes>
+		<runtime id="20618b780b675d5cde923b56e48d90573994aec8" name="Test_OneMat_Put-Strelka" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+	</parameters>
+</asset>

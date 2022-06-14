@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>5a84369c09008a9768560679f363ad8995fff59e</guid>
+	<type>mesh</type>
+	<hash>0b73cedf</hash>
+	<runtimes>
+		<runtime id="5a84369c09008a9768560679f363ad8995fff59e" name="PutBetonKB_SmallNasip_0-5m_.MESH" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+		<parameter type="float" name="scale">1</parameter>
+		<parameter type="bool" name="animation">1</parameter>
+		<parameter type="bool" name="vertex_cache">1</parameter>
+	</parameters>
+</asset>

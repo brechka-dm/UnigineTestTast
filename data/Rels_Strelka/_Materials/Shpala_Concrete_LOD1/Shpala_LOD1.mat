@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.13.0.0" name="Shpala_LOD1" guid="fcccf99fc780a91abd8419789ace97dcdbe36659" parent="863ea5f9390f970417c93693f1c04ad66fea043d" base_material="mesh_base">
+	<options transparent="1" depth_mask="0" cast_shadow="0" cast_world_shadow="0"/>
+	<state name="specular_map">1</state>
+	<state name="detail">1</state>
+	<state name="detail_mapping">2</state>
+	<texture name="albedo">guid://d2c2241fdae4f215a83c66d56e53bf6facb7c419</texture>
+	<texture name="detail_albedo">guid://3b30b8c2a37a8cfa62f6d4e56a28f69b564dd232</texture>
+	<parameter name="albedo_color" expression="0">0.576470613 0.576470613 0.576470613 1</parameter>
+	<parameter name="specular" expression="0">0</parameter>
+	<parameter name="translucent" expression="0">0.649999976</parameter>
+	<parameter name="detail_albedo_color" expression="0">0 0 0 1</parameter>
+	<parameter name="detail_specular" expression="0">0</parameter>
+</material>

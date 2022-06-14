@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>312d639faf3f7078fcf1b1b8024e402560ecff55</guid>
+	<type>node</type>
+	<hash>44f9c61d</hash>
+	<runtimes>
+		<runtime id="312d639faf3f7078fcf1b1b8024e402560ecff55" name="Strelka_Simm_1-6_Beton_MainPart.node" link="0"/>
+	</runtimes>
+</asset>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>9210dd2588e657a5fc57bacee4f5819936387d65</guid>
+	<type>mesh</type>
+	<hash>e057898a</hash>
+	<runtimes>
+		<runtime id="9210dd2588e657a5fc57bacee4f5819936387d65" name="PutWood_5m_v2_ShpalaWhole_.MESH" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+		<parameter type="float" name="scale">1</parameter>
+		<parameter type="bool" name="animation">1</parameter>
+		<parameter type="bool" name="vertex_cache">1</parameter>
+	</parameters>
+</asset>

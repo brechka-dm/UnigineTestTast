@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>dec59d4220684c7d7a1e29b44cc62600cec6d225</guid>
+	<type>mesh</type>
+	<hash>e0382492</hash>
+	<runtimes>
+		<runtime id="dec59d4220684c7d7a1e29b44cc62600cec6d225" name="PutBetonKB_5m_v2_ShpalaWhole_.MESH" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+		<parameter type="float" name="scale">1</parameter>
+		<parameter type="bool" name="animation">1</parameter>
+		<parameter type="bool" name="vertex_cache">1</parameter>
+	</parameters>
+</asset>

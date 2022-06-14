@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>b3813bcaae8b78a1734d398c7af4a77b5099769e</guid>
+	<type>world</type>
+	<hash>5439730a</hash>
+	<runtimes>
+		<runtime id="b3813bcaae8b78a1734d398c7af4a77b5099769e" name="world_spline_graph.world" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="string" name="render_settings_path"/>
+		<parameter type="string" name="sound_settings_path"/>
+		<parameter type="string" name="physics_settings_path"/>
+		<parameter type="string" name="script_name"/>
+	</parameters>
+</asset>

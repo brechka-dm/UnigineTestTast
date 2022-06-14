@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>60de2b21dc1f534d3af4e1dc2ac78b625809cc46</guid>
+	<type>node</type>
+	<hash>59955956</hash>
+	<runtimes>
+		<runtime id="60de2b21dc1f534d3af4e1dc2ac78b625809cc46" name="PutWood-Test_5m_Tunnel_.node" link="0"/>
+	</runtimes>
+</asset>

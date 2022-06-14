@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.13.0.0" name="Rels" guid="bb4f582cfa0ab4c9efcd95652955b267add81821" parent="72bf28722d636d29d0fad4748925f54346a019c6" base_material="mesh_base">
+	<state name="specular_map">1</state>
+	<texture name="albedo">guid://0d56a4660cefb0d0868b77647b67ab621a8cdc59</texture>
+	<texture name="shading">guid://76e63667924c95982d8a371aa327edb4596160ce</texture>
+	<texture name="normal">guid://693e22447da3ff93918b23fefb166aefea3da932</texture>
+	<parameter name="albedo_color" expression="0">0.752941251 0.752941251 0.752941251 1</parameter>
+	<parameter name="metalness" expression="0">1</parameter>
+</material>

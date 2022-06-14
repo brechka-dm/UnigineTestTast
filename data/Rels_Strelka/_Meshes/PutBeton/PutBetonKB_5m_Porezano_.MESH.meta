@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>c0f926fed8290e169ec86204fb7b666054fc739b</guid>
+	<type>mesh</type>
+	<hash>a40f9d6f</hash>
+	<runtimes>
+		<runtime id="c0f926fed8290e169ec86204fb7b666054fc739b" name="PutBetonKB_5m_Porezano_.MESH" link="0"/>
+	</runtimes>
+	<parameters>
+		<parameter type="bool" name="unchanged">1</parameter>
+		<parameter type="float" name="scale">1</parameter>
+		<parameter type="bool" name="animation">1</parameter>
+		<parameter type="bool" name="vertex_cache">1</parameter>
+	</parameters>
+</asset>

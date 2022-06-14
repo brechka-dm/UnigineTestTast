@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asset version="2.13.0.0">
+	<guid>b3d51ff060bdf35825e8ecabf8a7263bbfd81e4a</guid>
+	<type>material</type>
+	<hash>2700bffe</hash>
+	<runtimes>
+		<runtime id="b3d51ff060bdf35825e8ecabf8a7263bbfd81e4a" name="ShpalaWood_Straight_LOD1_Tunnel_" link="0"/>
+	</runtimes>
+</asset>
