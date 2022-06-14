@@ -53,8 +53,6 @@ void Cart::init(NodePtr bogie_Front, NodePtr bogie_BACK, NodePtr Upper,
 
 	Upper->setRotation(quat(0, 0, 90 +
 		getAngleBetweenBogies(bogie_front.GetPosition(), bogie_back.GetPosition())));
-
-	Log::message("rasst: %f\n", space(bogie_back.GetPosition(), bogie_front.GetPosition()));
 	
 }
 
