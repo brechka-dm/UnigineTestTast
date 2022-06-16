@@ -15,6 +15,13 @@
 
 #include "AppWorldLogic.h"
 
+#include <random>
+
+
+using namespace Unigine;
+using namespace std;
+using namespace Unigine::Math;
+
 // World logic, it takes effect only when the world is loaded.
 // These methods are called right after corresponding world script's (UnigineScript) methods.
 
@@ -31,25 +38,36 @@ int AppWorldLogic::init()
 	m_camera_actor = checked_ptr_cast<Player>(World::getNodeByName("main_player"));
 	m_CameraPlayer_Train = PlayerDummy::create();
 	m_CameraPlayer_Train->setWorldRotation(quat(0,0,0));
-	WorldSplineGraphPtr spl = WorldSplineGraph::create();
-	WorldSplineGraphPtr spl1 = WorldSplineGraph::create();
+	WorldSplineGraphPtr WorldSplineGraphPlayer = WorldSplineGraph::create();
+	WorldSplineGraphPtr WorldSplineGraphNPC = WorldSplineGraph::create();
 	
-	spl->load("1.spl");
-	spl1->load("1.spl");
-	spl1->setWorldPosition(vec3(25.53255, 0, 0));
-	roads.push_back(Road(spl));
-	roads.push_back(Road(spl1));
+	WorldSplineGraphPlayer->load("1.spl");
+	WorldSplineGraphNPC->load("1.spl");
+	WorldSplineGraphNPC->setWorldPosition(vec3(25.53255, 0, 0));
+	m_roads.push_back(Road(WorldSplineGraphPlayer));
+	m_roads.push_back(Road(WorldSplineGraphNPC));
 
 
-	vector<int> ss(4);
-	ss[0] = 1;
-	ss[1] = 0;
-	ss[2] = 1;
-	ss[3] = 1;
-	m_TrainPlayer.init(&roads[0], 5, ss);
-	m_TrainNPC.init(&roads[1], 5, ss);
-	vector<Unigine::NodePtr> nodes(1);
-	// Write here code to be called on world initialization: initialize resources for your world scene during the world start.
+	random_device rd;   
+	mt19937 gen(rd());  
+	uniform_int_distribution<> dist(0, 1);
+
+	vector<int> carts_types_NPC;
+	vector<int> carts_types_Player;
+	for (int i = 0; i < 3; i++)
+	{
+		carts_types_NPC.push_back(dist(gen));
+	}
+	for (int i = 0; i < 3; i++)
+	{
+		carts_types_Player.push_back(dist(gen));
+	}
+
+	m_TrainPlayer = make_unique<Train> (Train(&m_roads[0], 5, carts_types_Player));
+	m_TrainNPC = make_unique<Train> (Train(&m_roads[1], 5, carts_types_NPC));
+	m_TrainPlayer->GetNodeForCamera()->addChild(m_CameraPlayer_Train);
+	m_CameraPlayer_Train->setPosition(Vec3(0, 0, 3));
+	m_CameraPlayer_Train->rotate(90, 180, 0);
 	return 1;
 }
 
@@ -60,12 +78,11 @@ int AppWorldLogic::init()
 int AppWorldLogic::update()
 {
 
-	m_TrainPlayer.Update();
-	m_TrainNPC.Update();
-	m_CameraPlayer_Train->setWorldPosition(m_TrainPlayer.GetCameraPos());
-	m_CameraPlayer_Train->setWorldRotation(m_TrainPlayer.GetCamera());
-	m_CameraPlayer_Train->rotate(90, 180,0);
+	m_TrainPlayer->Update();
+	m_TrainNPC->Update();
 	
+	
+
 	if (Input::isKeyPressed(Input::KEY_R))
 	{
 		quat rot = m_CameraPlayer_Train->getWorldRotation();
@@ -73,11 +90,11 @@ int AppWorldLogic::update()
 	}
 	if (Input::isKeyPressed(Input::KEY_UP))
 	{
-		m_TrainPlayer.SpeedAdd(0.0005);
+		m_TrainPlayer->SpeedAdd(0.0005);
 	}
 	if (Input::isKeyPressed(Input::KEY_DOWN))
 	{
-		m_TrainPlayer.SpeedAdd(-0.0005);
+		m_TrainPlayer->SpeedAdd(-0.0005);
 
 
 	}

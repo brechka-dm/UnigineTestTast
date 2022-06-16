@@ -1,66 +1,67 @@
 #include "Train.h"
 
 
+using namespace Unigine;
+using namespace std;
+using namespace Unigine::Math;
 
-
-
-Train::Train()
-{ }
-void Train::init(Road* road, float speed, vector<int> Cart_types)
+Train::Train(Road* road, float speed, vector<int> Cart_types)
 {
-	this->speed = speed;
-	this->road = road;
-	
-	for(int i = 0; i < Cart_types.size();i++)
-	{
-		Cart vag;
-		if(Cart_types[i] == 0)
-			vag.init(World::loadNode("Bogie.node"), World::loadNode("Bogie.node"),
-				World::loadNode("Up_box.node"), road, speed, i);
-		else
-			vag.init(World::loadNode("Bogie.node"), World::loadNode("Bogie.node"),
-				World::loadNode("Up_cylingr.node"), road, speed, i);
-		Carts.push_back(vag);
-	}
-}
+	m_speed = speed;
+	m_road = road;
 
-void Train::SpeedAdd(float speedadding)
-{
-	if (!((speed >= 0.5 && speedadding > 0) || (speed < 0.0005 && speedadding<0)))
+	for (int i = 0; i < Cart_types.size(); i++)
 	{
-		speed += speedadding;
-		for (int i = 0; i < Carts.size(); i++)
+		if (Cart_types[i] == 0)
 		{
-			Carts[i].SpeedAdd(speedadding);
+			Cart vag(World::loadNode("Bogie.node"), World::loadNode("Bogie.node"),
+				World::loadNode("Up_box.node"), road, speed, i);
+			m_Carts.emplace_back(vag);
+		}
+		else
+		{
+			Cart vag(World::loadNode("Bogie.node"), World::loadNode("Bogie.node"),
+				World::loadNode("Up_cylingr.node"), road, speed, i);
+			m_Carts.emplace_back(vag);
 		}
 	}
 }
-float Train::GetSpeed()
+
+void Train::SpeedAdd(float value_for_the_sum_to_the_speed)
 {
-	return speed;
+	if (!((m_speed >= 0.5 && value_for_the_sum_to_the_speed > 0) || (m_speed < 0.0005 && value_for_the_sum_to_the_speed <0)))
+	{
+		m_speed += value_for_the_sum_to_the_speed;
+		for (int i = 0; i < m_Carts.size(); i++)
+		{
+			m_Carts[i].SpeedAdd(value_for_the_sum_to_the_speed);
+		}
+	}
+}
+
+float Train::GetSpeed() const
+{
+	return m_speed;
 }
 
 
-quat Train::GetCamera()
+NodePtr Train::GetNodeForCamera()
 {
-	int size = Carts.size() - 1;
-	return Carts[size].GetCameraDir();
-}
-
-Vec3 Train::GetCameraPos()
-{
-	int size = Carts.size() - 1;
-	return Carts[size].GetCameraPos() + vec3(0,0,3);
+	int size = m_Carts.size() - 1;
+	return m_Carts[size].GetNodeForCamera();
 }
 
 void Train::Update()
 {
-	int lastCart = Carts.size() - 1;
-	if (!Carts[lastCart].stop())
+	int lastCart = m_Carts.size() - 1;
+	if (!m_Carts[lastCart].isEndRoads())
 	{
-		for (int i = 0; i < Carts.size(); i++)
+		m_Carts[0].Update();
+		vec3 reference = m_Carts[0].GetFrontBogie();
+		for (int i = 1; i < m_Carts.size(); i++)
 		{
-			Carts[i].Update();
+			m_Carts[i].Update(reference, 3);
+			reference = m_Carts[i].GetFrontBogie();
 		}
 	}
 }

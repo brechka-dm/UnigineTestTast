@@ -9,24 +9,18 @@
 
 #include <vector>
 
-using namespace Unigine;
-using namespace std;
-using namespace Unigine::Math;
 
 class Train {
 
 public:
-	Train();
-	void init(Road* road, float speed, vector<int> Cart_types);
+	Train(Road* road, float speed, vector<int> Cart_types);
 	void Update();
-	quat GetCamera();
-	Vec3 GetCameraPos();
-	void SpeedAdd(float speedadding);
-	float GetSpeed();
-	~Train() {}
+	NodePtr GetNodeForCamera() ;
+	void SpeedAdd(float value_for_the_sum_to_the_speed);
+	float GetSpeed() const;
 
 private:
-	float speed = 0; 
-	Vector<Cart> Carts;
-	Road* road;
+	float m_speed = 0; 
+	Vector<Cart> m_Carts;
+	Road* m_road;
 };

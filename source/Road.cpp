@@ -3,10 +3,10 @@
 Road::Road(WorldSplineGraphPtr road)
 {
 
-	this->road = road;
-	road->getSplineSegments(road_segment);
+	m_road = road;
+	road->getSplineSegments(m_road_segment);
 
-	for (SplineSegmentPtr& segment : road_segment)
+	for (SplineSegmentPtr& segment : m_road_segment)
 	{
 		segment->assignSource(
 			"Rels_Strelka\\_Nodes\\PutWood\\PutWood_100m_.node",
@@ -14,60 +14,35 @@ Road::Road(WorldSplineGraphPtr road)
 		segment->setSegmentMode(
 			"Rels_Strelka\\_Nodes\\PutWood\\PutWood_100m_.node",
 			SplineSegment::SEGMENT_STRETCH);
-		road_Lenght += segment->getLength();
+		m_road_Lenght += segment->getLength();
 	}
 }
+
+
+int Road::GetSegmentCount()
+{
+	return this->m_road_segment.size();
+}
+
 Vec3 Road::calcPoint(float t)
 {
 	int segment = t;
 	t -= segment;
-	t= road_segment[segment]->linearToParametric(t);
-	return road_segment[segment]->calcPoint(t) + road->getWorldPosition();
-}
-
-int Road::GetSegmentCount()
-{
-	return this->road_segment.size();
+	return m_road_segment[segment]->calcPoint(t) + m_road->getWorldPosition();
 }
 
 Vec3 Road::calcTangent(float t)
 {
 	int segment = t;
 	t -= segment;
-	t = road_segment[segment]->linearToParametric(t);
-	return road_segment[segment]->calcTangent((t));
+	return m_road_segment[segment]->calcTangent((t));
 }
 
 Vec3 Road::calcUpVector(float t)
 {
-	
 	int segment = t;
 	t -= segment;
-	t = road_segment[segment]->linearToParametric(t);
-	return road_segment[segment]->calcUpVector(t);
+	return m_road_segment[segment]->calcUpVector(t);
 }
 
-float Road::GetLenght()
-{
-	return this->road_Lenght;
-}
 
-int Road::GetSegment(float distance)
-{
-	float max_distance = 0;
-	int returned = 0;
-	for (int i = 0; i < road_segment.size(); i++)
-	{
-		max_distance += road_segment[i]->getLength();
-		if (distance <= max_distance) {
-			returned = i;
-			i = road_segment.size();
-		}
-	}
-	return returned;
-}
-
-float Road::GetSegmentLenght(int segment)
-{
-	return road_segment[segment]->getLength();
-}

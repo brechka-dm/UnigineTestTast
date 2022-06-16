@@ -21,13 +21,10 @@ public:
 	Vec3 calcPoint(float t);
 	Vec3 calcTangent(float t);
 	Vec3 calcUpVector(float t);
-	float GetLenght();
-	float GetSegmentLenght(int segment);
-	int GetSegment(float distance);
 	int GetSegmentCount();
 private:
-	WorldSplineGraphPtr road;
-	Vector<SplineSegmentPtr> road_segment;
-	float road_Lenght = 0;
+	WorldSplineGraphPtr m_road;
+	Vector<SplineSegmentPtr> m_road_segment;
+	float m_road_Lenght = 0;
 };
 #endif

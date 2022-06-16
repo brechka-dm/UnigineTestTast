@@ -26,12 +26,9 @@
 #include <UnigineInput.h>
 #include "Train.h"
 #include <vector>
+#include <memory>
 
 
-
-using namespace Unigine;
-using namespace std;
-using namespace Unigine::Math;
 
 class AppWorldLogic : public Unigine::WorldLogic
 {
@@ -50,12 +47,12 @@ public:
 	int restore(const Unigine::StreamPtr &stream) override;
 
 private:
-	vector<Road> roads;
+	vector<Road> m_roads;
 	Unigine::ControlsPtr m_controls;
 	Unigine::PlayerPtr m_camera_actor;
-	PlayerDummyPtr m_CameraPlayer_Train;
-	Train m_TrainNPC;
-	Train m_TrainPlayer;
+	Unigine::PlayerDummyPtr m_CameraPlayer_Train;
+	std::unique_ptr<Train> m_TrainNPC;
+	std::unique_ptr<Train> m_TrainPlayer;
 };
 
 #endif // __APP_WORLD_LOGIC_H__

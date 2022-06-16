@@ -16,20 +16,19 @@ using namespace Unigine::Math;
 
 class PosOnRoad {
 public:
-	PosOnRoad();
-	void init(Road* road, float distance);
-	vec3 GetNewPos();
-	vec3 GetNewDir();
-	vec3 GetNewUpVec();
-	void AddOffset(float offset);
+	PosOnRoad(Road* road, float distance);
+	vec3 GetNewPos(float t);
+	float GetStart_t() const;
+	vec3 GetNewDir(float t);
+	vec3 GetNewUpVec(float t);
+	float AddOffset(float offset, float in_t);
+	float AddOffset(float offset, Math::vec3 pred_position, float distance, float in_t);
 	float space(Vec3 point_0, Vec3 point_1);
-	bool stop();
+	bool isEndRoads();
 private:
-
+	bool approximate(float value, float inaccuracy, float reference_distance);
 	void CalcInit(float distance);
-	float distance = 0;
-	float t = 0;
-	void correct(float offset);
-	Vec3 pos;
-	Road* road;
+	float m_t = 0;
+	float correct(float pred_position_distance, float distance, vec3 pred_position, float in_t);
+	Road* m_road;
 };

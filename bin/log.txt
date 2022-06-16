@@ -45,7 +45,7 @@ Plugins initialization: 4ms
 Loading "dxgi.dll"...
 Loading "openal32.dll"...
 Set 860x560 fullwindow video mode
-Application initialization: 269ms
+Application initialization: 272ms
 
 
 
@@ -61,8 +61,8 @@ Data path: E:/unigine_project/unigine_project/data/
 Save path: E:/unigine_project/unigine_project/bin/
 WARNING:	FileSystemCore::mount_file(): can't mount "test/NodeDummy_1.node" file, because of GUID collision
 
-Runtimes loaded: 6 2ms
-Filesystem initialization: 523ms
+Runtimes loaded: 6 3ms
+Filesystem initialization: 517ms
 
 ---- Sound ----
 Renderer: OpenAL Soft on Удаленное аудио
@@ -105,9 +105,9 @@ ERROR:		"Rels_Strelka/_Materials/Rels.mat" can't find material : 72bf28722d636d2
 ERROR:		"Rels_Strelka/_Materials/Shpala_Concrete/ShpalaConcrete_LOD0.mat" can't find material : 863ea5f9390f970417c93693f1c04ad66fea043d
 ERROR:		"Rels_Strelka/_Materials/Shpala_Concrete_LOD1/Shpala_LOD1.mat" can't find material : 863ea5f9390f970417c93693f1c04ad66fea043d
 ERROR:		"Rels_Strelka/_Materials/Shpala_Wood/ShpalaWood_LOD0.mat" can't find material : 863ea5f9390f970417c93693f1c04ad66fea043d
-Engine base materials loaded: 192 / 192 (379ms)
-Engine materials loaded:      70 / 70 (29ms)
-User materials loaded:        433 / 434 (399ms)
+Engine base materials loaded: 192 / 192 (377ms)
+Engine materials loaded:      70 / 70 (28ms)
+User materials loaded:        433 / 434 (393ms)
 Total materials: 695
 
 
@@ -127,7 +127,7 @@ Processor registered "CloseAnimation".
 Importer registered "GLTFImporter".
 Exporter registered "FbxExporter".
 Set 960x540 windowed video mode
-Engine initialization: 1828ms
+Engine initialization: 1821ms
 
 
 ---- Interpreter ----
@@ -136,18 +136,10 @@ Version: 2.90
 Unigine~# config_autosave 0 && world_load "unigine_project"
 Script loading "core/unigine.usc" 8ms
 Loading "core/locale/unigine.locale" dictionary 1ms
-World loading "unigine_project.world" 316ms
-rasst: 4.007870
-rasst: 3.997209
-rasst: 3.997346
-rasst: 4.000819
-rasst: 4.007870
-rasst: 3.997209
-rasst: 3.997346
-rasst: 4.000819
+World loading "unigine_project.world" 346ms
 
 ---- Load cache textures ----
-Cache textures loaded 311 (85ms)
+Cache textures loaded 311 (84ms)
 
 Exporter unregistered "FbxExporter".
 Importer unregistered "GLTFImporter".
@@ -166,11 +158,11 @@ Total RAM:           9.8 MB
 - system RAM used:   2.5 MB
 - pool RAM reserved: 7.3 MB
 - pool RAM used:     2.0 MB
-Total allocs:        132138
-- system allocs:     639
-- 16b pool allocs:   131263
-- 32b pool allocs:   202
-- 64b pool allocs:   34
+Total allocs:        132132
+- system allocs:     640
+- 16b pool allocs:   131264
+- 32b pool allocs:   196
+- 64b pool allocs:   32
 
 
 Shutdown

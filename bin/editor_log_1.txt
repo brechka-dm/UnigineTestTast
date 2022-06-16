@@ -38,13 +38,13 @@ GPU:	NVIDIA GRID K280Q
 Loading "FbxImporter_x64.dll"...
 Loading "GLTFImporter_x64.dll"...
 Loading "FbxExporter_x64.dll"...
-Plugins initialization: 84ms
+Plugins initialization: 143ms
 
 
 ---- Application ----
 Loading "dxgi.dll"...
 Loading "openal32.dll"...
-Application initialization: 405ms
+Application initialization: 645ms
 
 
 
@@ -70,8 +70,8 @@ Data path: E:/unigine_project/unigine_project/data/
 Save path: E:/unigine_project/unigine_project/bin/
 WARNING:	FileSystemCore::mount_file(): can't mount "test/NodeDummy_1.node" file, because of GUID collision
 
-Runtimes loaded: 6 3ms
-Filesystem initialization: 4941ms
+Runtimes loaded: 6 2ms
+Filesystem initialization: 6019ms
 
 ---- Sound ----
 Renderer: OpenAL Soft on Удаленное аудио
@@ -114,14 +114,14 @@ ERROR:		"Rels_Strelka/_Materials/Rels.mat" can't find material : 72bf28722d636d2
 ERROR:		"Rels_Strelka/_Materials/Shpala_Concrete/ShpalaConcrete_LOD0.mat" can't find material : 863ea5f9390f970417c93693f1c04ad66fea043d
 ERROR:		"Rels_Strelka/_Materials/Shpala_Concrete_LOD1/Shpala_LOD1.mat" can't find material : 863ea5f9390f970417c93693f1c04ad66fea043d
 ERROR:		"Rels_Strelka/_Materials/Shpala_Wood/ShpalaWood_LOD0.mat" can't find material : 863ea5f9390f970417c93693f1c04ad66fea043d
-Engine base materials loaded: 192 / 192 (372ms)
-Engine materials loaded:      70 / 70 (28ms)
-User materials loaded:        433 / 434 (372ms)
+Engine base materials loaded: 192 / 192 (378ms)
+Engine materials loaded:      70 / 70 (27ms)
+User materials loaded:        433 / 434 (362ms)
 Total materials: 695
 
 
 ---- Properties ----
-Properties loaded:            2 / 2 (0ms)
+Properties loaded:            2 / 2 (3ms)
 
 Processor registered "DefaultProcessor".
 Importer registered "FbxImporter".
@@ -135,10 +135,10 @@ Processor registered "CreateUV".
 Processor registered "CloseAnimation".
 Importer registered "GLTFImporter".
 Exporter registered "FbxExporter".
-Engine initialization: 9672ms
+Engine initialization: 10993ms
 
 
-Script loading "editor2/editor.usc" 93ms
+Script loading "editor2/editor.usc" 127ms
 ---- Editor ----
 Version: 2.13.0.0 ver-2.13.0.0-27a5e15 Dec 15 2020
 Binary: Windows MSVC 19.0.24215.1 
@@ -157,37 +157,13 @@ Editor.PluginSystem: Plugin search paths:  QVector("E:/unigine_project/unigine_p
 Version: 2.90
 
 Unigine~# config_autosave 1 && world_load "unigine_project"
-Script loading "core/unigine.usc" 21ms
-Loading "core/locale/unigine.locale" dictionary 1ms
-World loading "unigine_project.world" 515ms
+Script loading "core/unigine.usc" 31ms
+Loading "core/locale/unigine.locale" dictionary 0ms
+World loading "unigine_project.world" 312ms
 
 ---- Load cache textures ----
-Cache textures loaded 311 (81ms)
+Cache textures loaded 311 (80ms)
 
-ERROR:	Xml::load(): can't open "2" file
-ERROR:	World::loadNode(): can't open "2" file
-ERROR:	WorldSplineGraph::load_source_node(): can't load source node from 2
-ERROR:	WorldSplineGraph::addSourceNode(): can't load "2" node
-ERROR:	Xml::load(): can't open "2" file
-ERROR:	World::loadNode(): can't open "2" file
-ERROR:	WorldSplineGraph::load_source_node(): can't load source node from 2
-ERROR:	WorldSplineGraph::addSourceNode(): can't load "2" node
-ERROR:	Xml::load(): can't open "5" file
-ERROR:	World::loadNode(): can't open "5" file
-ERROR:	WorldSplineGraph::load_source_node(): can't load source node from 5
-ERROR:	WorldSplineGraph::addSourceNode(): can't load "5" node
-ERROR:	Xml::load(): can't open "5" file
-ERROR:	World::loadNode(): can't open "5" file
-ERROR:	WorldSplineGraph::load_source_node(): can't load source node from 5
-ERROR:	WorldSplineGraph::addSourceNode(): can't load "5" node
-ERROR:	Xml::load(): can't open "5" file
-ERROR:	World::loadNode(): can't open "5" file
-ERROR:	WorldSplineGraph::load_source_node(): can't load source node from 5
-ERROR:	WorldSplineGraph::addSourceNode(): can't load "5" node
-ERROR:	Xml::load(): can't open "5" file
-ERROR:	World::loadNode(): can't open "5" file
-ERROR:	WorldSplineGraph::load_source_node(): can't load source node from 5
-ERROR:	WorldSplineGraph::addSourceNode(): can't load "5" node
 Unigine~# world_save
 Saving "unigine_project.world"
 Unigine~# world_save
@@ -197,3 +173,28 @@ Saving "unigine_project.world"
 Unigine~# world_save
 Saving "unigine_project.world"
 WARNING:	unknown tool window
+Exporter unregistered "FbxExporter".
+Importer unregistered "GLTFImporter".
+Processor unregistered "MergeStaticMeshes".
+Processor unregistered "MergeSurfacesByMaterials".
+Processor unregistered "CombineByPostfixes".
+Processor unregistered "CreateUV".
+Processor unregistered "CloseAnimation".
+Importer unregistered "FbxImporter".
+Processor unregistered "MergeSimilarMaterials".
+Processor unregistered "SplitByBound".
+Processor unregistered "Repivot".
+Close "openal32.dll"
+ERROR:	D3D11RenderContext::destroyContext(): 8739 unreleased references
+Total RAM:           400.5 MB
+- system RAM used:   389.7 MB
+- pool RAM reserved: 10.8 MB
+- pool RAM used:     2.1 MB
+Total allocs:        136093
+- system allocs:     1932
+- 16b pool allocs:   131308
+- 32b pool allocs:   2659
+- 64b pool allocs:   192
+
+
+Shutdown

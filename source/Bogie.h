@@ -8,21 +8,25 @@
 
 #include <UnigineGame.h>
 #include <vector>
+#include <memory>
 
 
-using namespace Unigine;
-using namespace std;
-using namespace Unigine::Math;
+
 
 
 class Bogie {
 public:
-	Bogie();
-	void init(NodePtr bogie, Road* road, float nulldistance);
+	Bogie(Unigine::NodePtr bogie, Road* road, float nulldistance);
 	void DistanceAdd(float frameSpeed);
+	void DistanceAdd(float frameSpeed, Math::vec3 pos, float distance);
 	vec3 GetPosition();
-	bool stop();
+	bool isEndRoads();
 private:
-	NodePtr bogieNode;
-	PosOnRoad road;
+	const float m_pi = 3.1415926f;
+	const float m_R = 1.5f / 2;
+	float m_t = 0;
+	float m_distance = 0;
+	void wheel_rotation(float offset);
+	NodePtr m_bogieNode;
+	shared_ptr<PosOnRoad> m_road;
 };

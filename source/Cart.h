@@ -9,31 +9,25 @@
 
 #include <UnigineGame.h>
 #include <vector>
-
-using namespace Unigine;
-using namespace std;
-using namespace Unigine::Math;
-
-
+#include <memory>
 
 class Cart {
 public:
-	Cart();
-	~Cart();
-	void init(NodePtr bogie_Front, NodePtr bogie_BACK, NodePtr Upper,
+	Cart(Unigine::NodePtr bogie_Front, Unigine::NodePtr bogie_BACK, Unigine::NodePtr Upper,
 		Road* road, float speed, int position);
 	int Update();
-	quat GetCameraDir();
-	Vec3 GetCameraPos();
+	int Update(Math::vec3 pos, float distance);
+	NodePtr GetNodeForCamera() const;
 	void SpeedAdd(float speedadding);
-	float GetSpeed();
-	bool stop();
+	float GetSpeed() const;
+	bool isEndRoads();
+	vec3 GetFrontBogie();
 	
 private:
-	float speed = 0;
-	Bogie bogie_front; 
-	Bogie bogie_back;
-	Unigine::NodePtr Upper; 
+	float m_speed = 0;
+	std::shared_ptr<Bogie> m_bogie_front;
+	std::shared_ptr<Bogie> m_bogie_back;
+	Unigine::NodePtr m_Upper;
 	float space(Vec3 old_point, Vec3 new_point);
 	Vec3 centerPoint(Vec3 point1, Vec3 point2);
 	float getAngleBetweenBogies(Vec3 front, Vec3 back);

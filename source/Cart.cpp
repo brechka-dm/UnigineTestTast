@@ -1,13 +1,23 @@
 #include "Cart.h"
 
-Cart::Cart()
+using namespace Unigine;
+using namespace std;
+using namespace Unigine::Math;
+
+Cart::Cart(NodePtr bogie_Front, NodePtr bogie_BACK, NodePtr Upper,
+	Road* road, float speed, int position)
 {
+	//make_unique<Train> (Train(&roads[0], 5, carts_types_Player));
+	this->m_Upper = Upper;
+	this->m_speed = speed;
+	this->m_bogie_back = make_unique<Bogie>(bogie_BACK, road, 7 * position);
+	this->m_bogie_front = make_unique<Bogie>(bogie_Front, road, 7 * position + 4);
 
-}
+	Upper->setPosition(centerPoint(m_bogie_back->GetPosition(),
+		m_bogie_front->GetPosition()));
 
-Cart::~Cart()
-{
-
+	Upper->setRotation(quat(0, 0, 90 +
+		getAngleBetweenBogies(m_bogie_front->GetPosition(), m_bogie_back->GetPosition())));
 }
 
 
@@ -26,83 +36,68 @@ float Cart::getAngleBetweenBogies(Vec3 front, Vec3 back)
 
 	float test = atan2(temp.y, temp.x) * 57.29578f;
 
-
 	return test;
 }
-
-
-
-
-
-
-
 
 Vec3 Cart::centerPoint(Vec3 point1, Vec3 point2)
 {
 	return Vec3((point1.x + point2.x) / 2, (point1.y + point2.y) / 2, 0);
 }
-void Cart::init(NodePtr bogie_Front, NodePtr bogie_BACK, NodePtr Upper, 
-	Road* road, float speed, int position)
-{
-	this->Upper = Upper;
-	this->speed = speed;
-	this->bogie_back.init(bogie_BACK, road, 7 * position);
-	this->bogie_front.init(bogie_Front, road, 7 * position + 4);
-	
-	Upper->setPosition(centerPoint(bogie_back.GetPosition(), bogie_front.GetPosition()));
 
-	Upper->setRotation(quat(0, 0, 90 +
-		getAngleBetweenBogies(bogie_front.GetPosition(), bogie_back.GetPosition())));
-	
+NodePtr Cart::GetNodeForCamera() const
+{
+	return m_Upper;
 }
 
 
-
-
-
-quat Cart::GetCameraDir()
+bool Cart::isEndRoads()
 {
-	return Upper->getWorldRotation();
-}
-Vec3 Cart::GetCameraPos()
-{
-	return Upper->getWorldPosition();
-}
-
-
-
-bool Cart::stop()
-{
-	
-	if (bogie_front.stop() && bogie_back.stop())
+	if (m_bogie_front->isEndRoads() && m_bogie_back->isEndRoads())
 		return true;
 	else
 		return false;
 }
 
+int Cart::Update(Math::vec3 pos, float distance)
+{
+	float speed = this->m_speed * Game::getIFps();
+
+	this->m_bogie_back->DistanceAdd(speed, pos, distance);
+	pos = m_bogie_back->GetPosition();
+	this->m_bogie_front->DistanceAdd(speed, pos, 4);
+
+	m_Upper->setPosition(centerPoint(m_bogie_back->GetPosition(), m_bogie_front->GetPosition()));
+	m_Upper->setRotation(quat(0, 0, 90 +
+		getAngleBetweenBogies(m_bogie_front->GetPosition(), m_bogie_back->GetPosition())));
+
+	return 0;
+}
+
+vec3 Cart::GetFrontBogie()
+{
+	return m_bogie_front->GetPosition();
+}
+
 int Cart::Update()
 {
-	
-	float speed = this->speed * Game::getIFps();
-	
+	float speed = this->m_speed * Game::getIFps();
 
-	Upper->setPosition(centerPoint(bogie_back.GetPosition(), bogie_front.GetPosition()));
+	this->m_bogie_back->DistanceAdd(speed);
+	this->m_bogie_front->DistanceAdd(speed);
 
-	Upper->setRotation(quat(0, 0, 90 +
-		getAngleBetweenBogies(bogie_front.GetPosition(), bogie_back.GetPosition())));
+	m_Upper->setPosition(centerPoint(m_bogie_back->GetPosition(), m_bogie_front->GetPosition()));
 
-	this->bogie_back.DistanceAdd(speed);
-	this->bogie_front.DistanceAdd(speed);
-	
+	m_Upper->setRotation(quat(0, 0, 90 +
+		getAngleBetweenBogies(m_bogie_front->GetPosition(), m_bogie_back->GetPosition())));
 	
 	return 1;
 }
 
 void Cart::SpeedAdd(float speedadding)
 {
-	speed += speedadding;
+	m_speed += speedadding;
 }
-float Cart::GetSpeed()
+float Cart::GetSpeed() const
 {
-	return speed;
+	return m_speed;
 }

@@ -1,107 +1,146 @@
 #include "PosOnRoad.h"
 
-PosOnRoad::PosOnRoad()
+PosOnRoad::PosOnRoad(Road* road, float distance)
 {
-
-}
-
-void PosOnRoad::init(Road* road, float distance)
-{
-	
-	this->road = road;
+	this->m_road = road;
 	CalcInit(distance);
 }
 
 
+float PosOnRoad::GetStart_t() const
+{
+	return m_t;
+}
 void PosOnRoad::CalcInit(float distance)
 {
-	/*
-	float dist = distance;
-
-	int segment = road->GetSegment(dist);
-
-	float lenghtseg = road->GetSegmentLenght(segment);
-
-	for (int i = 0; i < segment; i++)
-	{
-		dist -= road->GetSegmentLenght(i);
-	}
-
-	t = (dist / lenghtseg) + segment;
-
-	this->t = t;
-
-	this->pos = road->calcPoint(t);
-	this->distance += dist;
-	*/
-
-
-
 	float dist = 0;
-	float tmax = road->GetSegmentCount();
-	vec3 pos = road->calcPoint(0);
+	float tmax = m_road->GetSegmentCount();
+	vec3 pos = m_road->calcPoint(0);
 	for (float i = 0.0f; i < tmax; i += 0.0001)
 	{
-		vec3 post = road->calcPoint(i);
+		vec3 post = m_road->calcPoint(i);
 		dist += space(post, pos);
 		pos = post;
 		if (dist >= distance)
 		{
-			this->t = i;
+			this->m_t = i;
 			i = tmax + 1;
 		}
 	}
-	this->distance = dist;
-	this->pos = pos;
 
 }
-void PosOnRoad::correct(float offset)
+float PosOnRoad::correct(float pred_position_distance, float distance, vec3 pred_position, float in_t)
 {
-	float dist = 0;
-	float tmax = road->GetSegmentCount();
-	vec3 pos = road->calcPoint(t);
-	for (float i = this->t; i < tmax; i += 0.0001)
+	float tmax = m_road->GetSegmentCount();
+	vec3 post = m_road->calcPoint(m_t);
+	if (pred_position_distance > distance)
 	{
-		vec3 post = road->calcPoint(i);
-		dist += space(post, pos);
-		pos = post;
-		if (dist >= offset)
+		for (float i = in_t; i > 0; i -= 0.0001)
 		{
-			this->t = i;
-			i = tmax + 1;
+			post = m_road->calcPoint(i);
+			pred_position_distance = space(pred_position, post);
+			if (pred_position_distance <= distance)
+			{
+				in_t = i;
+				i = -1;
+			}
 		}
 	}
-	this->distance += offset;
-	this->pos = pos;
+	else if (pred_position_distance < distance)
+	{
+		for (float i = in_t; i < tmax; i += 0.0001)
+		{
+			post = m_road->calcPoint(i);
+			pred_position_distance = space(pred_position, post);
+			if (pred_position_distance >= distance)
+			{
+				in_t = i;
+				i = tmax + 1;
+			}
+		}
+	}
+
+	return in_t;
+
 }
 
-bool PosOnRoad::stop()
+bool PosOnRoad::isEndRoads()
 {
-	if (t >= road->GetSegmentCount() - 0.1 || t == 0)
+	if (m_t >= m_road->GetSegmentCount() - 0.1 || m_t == 0)
 		return true;
 	else
 		return false;
 }
-void PosOnRoad::AddOffset(float offset)
+
+float PosOnRoad::AddOffset(float offset, Math::vec3 pred_position, float distance, float in_t)
 {
-	correct(offset);
+	float dist = 0;
+	float tmax = m_road->GetSegmentCount();
+	vec3 pos = m_road->calcPoint(in_t);
+	for (float i = in_t; i < tmax; i += 0.0001)
+	{
+		vec3 post = m_road->calcPoint(i);
+		dist += space(post, pos);
+		
+		pos = post;
+		if (dist >= offset)
+		{
+			in_t = i;
+			i = tmax + 1;
+		}
+	}
+	float pred_position_distance = space(pred_position, pos);
+	if (!approximate(pred_position_distance, 0.05f, distance))
+	{
+		in_t = correct(pred_position_distance, distance, pred_position, in_t);
+	}
+	return in_t;
+}
+
+bool PosOnRoad::approximate(float value, float inaccuracy, float reference_distance)
+{
+	bool returned = false;
+	if (reference_distance < 0 || (value <= reference_distance + inaccuracy && value >=  reference_distance - inaccuracy))
+	{
+		returned = true;
+	}
+		return returned;
+}
+
+float PosOnRoad::AddOffset(float offset, float in_t)
+{
+	float dist = 0;
+	float tmax = m_road->GetSegmentCount();
+	vec3 pos = m_road->calcPoint(in_t);
+	for (float i = in_t; i < tmax; i += 0.0001)
+	{
+		vec3 post = m_road->calcPoint(i);
+		dist += space(post, pos);
+		pos = post;
+		if (dist >= offset)
+		{
+			in_t = i;
+			i = tmax + 1;
+		}
+	}
+	return in_t;
 }
 
 
 
-vec3 PosOnRoad::GetNewPos()
+vec3 PosOnRoad::GetNewPos(float t)
 {	
-	return road->calcPoint(t) + vec3(0,0,1);
+	return m_road->calcPoint(t) + vec3(0,0,1);
 }
 
-vec3 PosOnRoad::GetNewDir()
+vec3 PosOnRoad::GetNewDir(float t)
 {
-	return road->calcTangent(t);
+	return m_road->calcTangent(t);
 }
 
-vec3 PosOnRoad::GetNewUpVec()
+vec3 PosOnRoad::GetNewUpVec(float t)
 {
-	return road->calcUpVector(t);
+	return m_road->calcUpVector(t);
 }
 
 float PosOnRoad::space(Vec3 point_0, Vec3 point_1)
