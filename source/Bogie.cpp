@@ -29,7 +29,7 @@ void Bogie::wheel_rotation(float offset)
 
 bool Bogie::isEndRoads() 
 {
-	return m_road->isEndRoads();
+	return m_road->isEndRoads(m_t);
 }
 void Bogie::DistanceAdd(float frameSpeed)
 {

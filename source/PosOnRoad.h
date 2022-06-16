@@ -24,7 +24,7 @@ public:
 	float AddOffset(float offset, float in_t);
 	float AddOffset(float offset, Math::vec3 pred_position, float distance, float in_t);
 	float space(Vec3 point_0, Vec3 point_1);
-	bool isEndRoads();
+	bool isEndRoads(float in_t);
 private:
 	bool approximate(float value, float inaccuracy, float reference_distance);
 	void CalcInit(float distance);

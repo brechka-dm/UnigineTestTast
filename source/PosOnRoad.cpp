@@ -64,9 +64,9 @@ float PosOnRoad::correct(float pred_position_distance, float distance, vec3 pred
 
 }
 
-bool PosOnRoad::isEndRoads()
+bool PosOnRoad::isEndRoads(float in_t)
 {
-	if (m_t >= m_road->GetSegmentCount() - 0.1 || m_t == 0)
+	if (in_t >= m_road->GetSegmentCount() - 0.1 || in_t == 0)
 		return true;
 	else
 		return false;
