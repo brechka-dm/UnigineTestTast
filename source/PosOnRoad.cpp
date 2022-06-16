@@ -32,7 +32,7 @@ void PosOnRoad::CalcInit(float distance)
 float PosOnRoad::correct(float pred_position_distance, float distance, vec3 pred_position, float in_t)
 {
 	float tmax = m_road->GetSegmentCount();
-	vec3 post = m_road->calcPoint(m_t);
+	vec3 post = m_road->calcPoint(in_t);
 	if (pred_position_distance > distance)
 	{
 		for (float i = in_t; i > 0; i -= 0.0001)
